@@ -1,0 +1,36 @@
+# KiCAD ignore list:
+_autosave-*
+*.kicad_pcb-bak
+*.bak
+_saved_*
+*-rescue.lib
+
+FreeCAD backup files
+*.FCStd1
+*.fcstd1
+*.FCStd2
+*.fcstd2
+
+# open office / libre office lock files
+*.~lock.*
+
+# OwnCloud conflicts:
+*_conflict-*
+
+# project specific ignores:
+# for pcb-pool production files
+/pcb-pool*
+# for datasheets or other documents that are not allowed to be synced..
+/no_git_sync*
+/datasheets*
+# for old outdated things
+/old*
+# for zip backups:
+/backup*
+
+# solidworks binary files:
+SolidWorks/
+*.sldprt
+*.SLDPRT
+*.sldasm
+*.SLDASM

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name nichia)(type KiCad)(uri ${SLIGHTLIB}/LEDs_SMD_NICHIA.pretty)(options "")(descr "my nichia led collection"))
+)
