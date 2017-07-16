@@ -1,4 +1,4 @@
-update=Do 13 Jul 2017 16:56:34 CEST
+update=Mo 17 Jul 2017 00:16:33 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,5 +60,6 @@ LibName30=switches
 LibName31=leds
 LibName32=led_bgr
 LibName33=/home/stefan/mydata/kicad/mylib/TI_TLC5971/TI_TLC5971
+LibName34=mechanical
 [general]
 version=1
