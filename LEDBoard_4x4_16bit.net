@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/stefan/mydata/github/LEDBoard_4x4_16bit/LEDBoard_4x4_16bit.sch)
-    (date "Mo 17 Jul 2017 01:06:17 CEST")
+    (date "Mo 17 Jul 2017 09:49:36 CEST")
     (tool "Eeschema no-vcs-found-0633d90~59~ubuntu17.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref D1.1)
       (value LED_1.1)
-      (footprint nichia:LED_NSSM032AT_wViaHeatSink)
+      (footprint nichia:LED_NSSM032AT_wViaHeatSinkBig)
       (fields
         (field (name "Nichia part") NSSM032A))
       (libsource (lib led_bgr) (part LED_BGR_DieOnCathodeSide))
@@ -51,7 +51,7 @@
       (tstamp 596752BA))
     (comp (ref D1.2)
       (value LED_1.2)
-      (footprint nichia:LED_NSSM032AT_wViaHeatSink)
+      (footprint nichia:LED_NSSM032AT_wViaHeatSinkBig)
       (fields
         (field (name "Nichia part") NSSM032A))
       (libsource (lib led_bgr) (part LED_BGR_DieOnCathodeSide))
@@ -59,7 +59,7 @@
       (tstamp 596757FD))
     (comp (ref D2.1)
       (value LED_2.1)
-      (footprint nichia:LED_NSSM032AT_wViaHeatSink)
+      (footprint nichia:LED_NSSM032AT_wViaHeatSinkBig)
       (fields
         (field (name "Nichia part") NSSM032A))
       (libsource (lib led_bgr) (part LED_BGR_DieOnCathodeSide))
@@ -67,7 +67,7 @@
       (tstamp 59675A66))
     (comp (ref D2.2)
       (value LED_2.2)
-      (footprint nichia:LED_NSSM032AT_wViaHeatSink)
+      (footprint nichia:LED_NSSM032AT_wViaHeatSinkBig)
       (fields
         (field (name "Nichia part") NSSM032A))
       (libsource (lib led_bgr) (part LED_BGR_DieOnCathodeSide))
@@ -75,7 +75,7 @@
       (tstamp 59675A6E))
     (comp (ref D3.1)
       (value LED_3.1)
-      (footprint nichia:LED_NSSM032AT_wViaHeatSink)
+      (footprint nichia:LED_NSSM032AT_wViaHeatSinkBig)
       (fields
         (field (name "Nichia part") NSSM032A))
       (libsource (lib led_bgr) (part LED_BGR_DieOnCathodeSide))
@@ -95,7 +95,7 @@
       (tstamp 59677C4A))
     (comp (ref D3.2)
       (value LED_3.2)
-      (footprint nichia:LED_NSSM032AT_wViaHeatSink)
+      (footprint nichia:LED_NSSM032AT_wViaHeatSinkBig)
       (fields
         (field (name "Nichia part") NSSM032A))
       (libsource (lib led_bgr) (part LED_BGR_DieOnCathodeSide))
@@ -103,7 +103,7 @@
       (tstamp 59677C57))
     (comp (ref D4.1)
       (value LED_4.1)
-      (footprint nichia:LED_NSSM032AT_wViaHeatSink)
+      (footprint nichia:LED_NSSM032AT_wViaHeatSinkBig)
       (fields
         (field (name "Nichia part") NSSM032A))
       (libsource (lib led_bgr) (part LED_BGR_DieOnCathodeSide))
@@ -111,7 +111,7 @@
       (tstamp 59677C5E))
     (comp (ref D4.2)
       (value LED_4.2)
-      (footprint nichia:LED_NSSM032AT_wViaHeatSink)
+      (footprint nichia:LED_NSSM032AT_wViaHeatSinkBig)
       (fields
         (field (name "Nichia part") NSSM032A))
       (libsource (lib led_bgr) (part LED_BGR_DieOnCathodeSide))
@@ -119,7 +119,7 @@
       (tstamp 59677C65))
     (comp (ref D1.3)
       (value LED_1.3)
-      (footprint nichia:LED_NSSM032AT_wViaHeatSink)
+      (footprint nichia:LED_NSSM032AT_wViaHeatSinkBig)
       (fields
         (field (name "Nichia part") NSSM032A))
       (libsource (lib led_bgr) (part LED_BGR_DieOnCathodeSide))
@@ -145,7 +145,7 @@
       (tstamp 59678C02))
     (comp (ref D1.4)
       (value LED_1.4)
-      (footprint nichia:LED_NSSM032AT_wViaHeatSink)
+      (footprint nichia:LED_NSSM032AT_wViaHeatSinkBig)
       (fields
         (field (name "Nichia part") NSSM032A))
       (libsource (lib led_bgr) (part LED_BGR_DieOnCathodeSide))
@@ -153,7 +153,7 @@
       (tstamp 59678C09))
     (comp (ref D2.3)
       (value LED_2.3)
-      (footprint nichia:LED_NSSM032AT_wViaHeatSink)
+      (footprint nichia:LED_NSSM032AT_wViaHeatSinkBig)
       (fields
         (field (name "Nichia part") NSSM032A))
       (libsource (lib led_bgr) (part LED_BGR_DieOnCathodeSide))
@@ -161,7 +161,7 @@
       (tstamp 59678C10))
     (comp (ref D2.4)
       (value LED_2.4)
-      (footprint nichia:LED_NSSM032AT_wViaHeatSink)
+      (footprint nichia:LED_NSSM032AT_wViaHeatSinkBig)
       (fields
         (field (name "Nichia part") NSSM032A))
       (libsource (lib led_bgr) (part LED_BGR_DieOnCathodeSide))
@@ -169,7 +169,7 @@
       (tstamp 59678C17))
     (comp (ref D3.3)
       (value LED_3.3)
-      (footprint nichia:LED_NSSM032AT_wViaHeatSink)
+      (footprint nichia:LED_NSSM032AT_wViaHeatSinkBig)
       (fields
         (field (name "Nichia part") NSSM032A))
       (libsource (lib led_bgr) (part LED_BGR_DieOnCathodeSide))
@@ -195,7 +195,7 @@
       (tstamp 59678C66))
     (comp (ref D3.4)
       (value LED_3.4)
-      (footprint nichia:LED_NSSM032AT_wViaHeatSink)
+      (footprint nichia:LED_NSSM032AT_wViaHeatSinkBig)
       (fields
         (field (name "Nichia part") NSSM032A))
       (libsource (lib led_bgr) (part LED_BGR_DieOnCathodeSide))
@@ -203,7 +203,7 @@
       (tstamp 59678C6D))
     (comp (ref D4.3)
       (value LED_4.3)
-      (footprint nichia:LED_NSSM032AT_wViaHeatSink)
+      (footprint nichia:LED_NSSM032AT_wViaHeatSinkBig)
       (fields
         (field (name "Nichia part") NSSM032A))
       (libsource (lib led_bgr) (part LED_BGR_DieOnCathodeSide))
@@ -211,7 +211,7 @@
       (tstamp 59678C74))
     (comp (ref D4.4)
       (value LED_4.4)
-      (footprint nichia:LED_NSSM032AT_wViaHeatSink)
+      (footprint nichia:LED_NSSM032AT_wViaHeatSinkBig)
       (fields
         (field (name "Nichia part") NSSM032A))
       (libsource (lib led_bgr) (part LED_BGR_DieOnCathodeSide))
@@ -253,7 +253,7 @@
       (tstamp 596B946D))
     (comp (ref MK1)
       (value Mounting_Hole)
-      (footprint Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via)
+      (footprint Mounting_Holes:MountingHole_3.2mm_M3_ISO7380_Pad)
       (libsource (lib mechanical) (part Mounting_Hole_PAD))
       (sheetpath (names /) (tstamps /))
       (tstamp 596BEA50))
@@ -269,7 +269,7 @@
       (tstamp 596BEC2E))
     (comp (ref MK2)
       (value Mounting_Hole)
-      (footprint Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via)
+      (footprint Mounting_Holes:MountingHole_3.2mm_M3_ISO7380_Pad)
       (libsource (lib mechanical) (part Mounting_Hole_PAD))
       (sheetpath (names /) (tstamps /))
       (tstamp 596BF4CB)))
