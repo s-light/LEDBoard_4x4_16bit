@@ -1471,18 +1471,26 @@ Text Label 1150 4600 2    60   ~ 0
 U3_sense
 Text Label 6450 4600 2    60   ~ 0
 U4_sense
+Text Label 2550 5350 0    60   ~ 0
+data_2-3
 Wire Wire Line
-	2550 5350 3150 5350
+	1150 5350 650  5350
 Wire Wire Line
-	3150 5350 3150 5600
+	650  5350 650  3350
 Wire Wire Line
-	3150 5600 5900 5600
+	650  3350 8400 3350
+Wire Wire Line
+	8400 3350 8400 2600
+Wire Wire Line
+	8400 2600 7850 2600
+Wire Wire Line
+	5900 5350 6450 5350
 Wire Wire Line
 	5900 5600 5900 5350
 Wire Wire Line
-	5900 5350 6450 5350
-Text Label 1150 5350 2    60   ~ 0
-data_1-2
-Text Label 2550 5350 0    60   ~ 0
-data_2-3
+	3150 5600 5900 5600
+Wire Wire Line
+	3150 5350 3150 5600
+Wire Wire Line
+	2550 5350 3150 5350
 $EndSCHEMATC
