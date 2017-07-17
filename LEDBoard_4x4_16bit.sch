@@ -231,9 +231,12 @@ L R R2
 U 1 1 59677C44
 P 6450 2000
 F 0 "R2" H 6520 2046 50  0000 L CNN
-F 1 "R" H 6520 1955 50  0000 L CNN
+F 1 "2k7 1%" H 6520 1955 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" V 6380 2000 50  0001 C CNN
 F 3 "" H 6450 2000 50  0001 C CNN
+F 4 "SMD-0603 2,7K" H 1150 2000 60  0001 C CNN "reichelt"
+F 5 "https://www.reichelt.de/SMD-0603-von-1-bis-910-kOhm/SMD-0603-2-7K/3/index.html?ACTION=3&GROUPID=7968&ARTICLE=89435&OFFSET=100&" H 1150 2000 60  0001 C CNN "reichelt_url"
+F 6 "RC0603FR-072K7L" H 1150 2000 60  0001 C CNN "YAGEO"
 	1    6450 2000
 	1    0    0    -1  
 $EndComp
@@ -245,6 +248,9 @@ F 0 "C2" H 6315 1446 50  0000 L CNN
 F 1 "100nF" H 6315 1355 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6238 1250 50  0001 C CNN
 F 3 "" H 6200 1400 50  0001 C CNN
+F 4 "X7R-G0603 100N" H 0   0   60  0001 C CNN "reichelt"
+F 5 "https://www.reichelt.de/Vielschicht-SMD-G0603/X7R-G0603-100N/3/index.html?ACTION=3&GROUPID=3166&ARTICLE=31873&OFFSET=100&" H 0   0   60  0001 C CNN "reichelt_url"
+F 6 "CC0603KRX7R7BB104" H 0   0   60  0001 C CNN "YAGEO"
 	1    6200 1400
 	1    0    0    -1  
 $EndComp
@@ -369,9 +375,12 @@ L R R3
 U 1 1 59678BF6
 P 1150 4750
 F 0 "R3" H 1220 4796 50  0000 L CNN
-F 1 "R" H 1220 4705 50  0000 L CNN
+F 1 "2k7 1%" H 1220 4705 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" V 1080 4750 50  0001 C CNN
 F 3 "" H 1150 4750 50  0001 C CNN
+F 4 "SMD-0603 2,7K" H 1150 2000 60  0001 C CNN "reichelt"
+F 5 "https://www.reichelt.de/SMD-0603-von-1-bis-910-kOhm/SMD-0603-2-7K/3/index.html?ACTION=3&GROUPID=7968&ARTICLE=89435&OFFSET=100&" H 1150 2000 60  0001 C CNN "reichelt_url"
+F 6 "RC0603FR-072K7L" H 1150 2000 60  0001 C CNN "YAGEO"
 	1    1150 4750
 	1    0    0    -1  
 $EndComp
@@ -383,6 +392,9 @@ F 0 "C3" H 1015 4196 50  0000 L CNN
 F 1 "100nF" H 1015 4105 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 938 4000 50  0001 C CNN
 F 3 "" H 900 4150 50  0001 C CNN
+F 4 "X7R-G0603 100N" H 0   0   60  0001 C CNN "reichelt"
+F 5 "https://www.reichelt.de/Vielschicht-SMD-G0603/X7R-G0603-100N/3/index.html?ACTION=3&GROUPID=3166&ARTICLE=31873&OFFSET=100&" H 0   0   60  0001 C CNN "reichelt_url"
+F 6 "CC0603KRX7R7BB104" H 0   0   60  0001 C CNN "YAGEO"
 	1    900  4150
 	1    0    0    -1  
 $EndComp
@@ -518,9 +530,12 @@ L R R4
 U 1 1 59678C5A
 P 6450 4750
 F 0 "R4" H 6520 4796 50  0000 L CNN
-F 1 "R" H 6520 4705 50  0000 L CNN
+F 1 "2k7 1%" H 6520 4705 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" V 6380 4750 50  0001 C CNN
 F 3 "" H 6450 4750 50  0001 C CNN
+F 4 "SMD-0603 2,7K" H 1150 2000 60  0001 C CNN "reichelt"
+F 5 "https://www.reichelt.de/SMD-0603-von-1-bis-910-kOhm/SMD-0603-2-7K/3/index.html?ACTION=3&GROUPID=7968&ARTICLE=89435&OFFSET=100&" H 1150 2000 60  0001 C CNN "reichelt_url"
+F 6 "RC0603FR-072K7L" H 1150 2000 60  0001 C CNN "YAGEO"
 	1    6450 4750
 	1    0    0    -1  
 $EndComp
@@ -532,6 +547,9 @@ F 0 "C4" H 6315 4196 50  0000 L CNN
 F 1 "100nF" H 6315 4105 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6238 4000 50  0001 C CNN
 F 3 "" H 6200 4150 50  0001 C CNN
+F 4 "X7R-G0603 100N" H 0   0   60  0001 C CNN "reichelt"
+F 5 "https://www.reichelt.de/Vielschicht-SMD-G0603/X7R-G0603-100N/3/index.html?ACTION=3&GROUPID=3166&ARTICLE=31873&OFFSET=100&" H 0   0   60  0001 C CNN "reichelt_url"
+F 6 "CC0603KRX7R7BB104" H 0   0   60  0001 C CNN "YAGEO"
 	1    6200 4150
 	1    0    0    -1  
 $EndComp
@@ -1152,18 +1170,12 @@ Text Label 1300 7150 0    60   ~ 0
 data_in
 Text Label 1300 7350 0    60   ~ 0
 clock_in
-Text Label 7850 2600 0    60   ~ 0
-data_1-2
 Text Label 7850 2700 0    60   ~ 0
 clock_1-2
-Text Label 1150 5350 2    60   ~ 0
-data_1-2
 Text Label 1150 5450 2    60   ~ 0
 clock_1-2
 Text Label 2550 5450 0    60   ~ 0
 clock_2-3
-Text Label 6450 5350 2    60   ~ 0
-data_2-3
 Text Label 6450 5450 2    60   ~ 0
 clock_2-3
 Text Label 2550 2600 0    60   ~ 0
@@ -1449,6 +1461,26 @@ Text Label 2250 7350 2    60   ~ 0
 clock_out
 Text Label 2250 7150 2    60   ~ 0
 data_out
-Text Label 2550 5350 0    60   ~ 0
-data_2-3
+Text Label 7850 2600 0    60   ~ 0
+data_intern_2
+Text Label 6450 1850 2    60   ~ 0
+U2_sense
+Text Label 1150 1850 2    60   ~ 0
+U1_sense
+Text Label 1150 4600 2    60   ~ 0
+U3_sense
+Text Label 6450 4600 2    60   ~ 0
+U4_sense
+Wire Wire Line
+	2550 5350 3150 5350
+Wire Wire Line
+	3150 5350 3150 5600
+Wire Wire Line
+	3150 5600 5900 5600
+Wire Wire Line
+	5900 5600 5900 5350
+Wire Wire Line
+	5900 5350 6450 5350
+Text Label 1150 5350 2    60   ~ 0
+data_intern_2
 $EndSCHEMATC
