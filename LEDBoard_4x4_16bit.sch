@@ -1462,7 +1462,7 @@ clock_out
 Text Label 2250 7150 2    60   ~ 0
 data_out
 Text Label 7850 2600 0    60   ~ 0
-data_intern_2
+data_1-2
 Text Label 6450 1850 2    60   ~ 0
 U2_sense
 Text Label 1150 1850 2    60   ~ 0
@@ -1482,5 +1482,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 5350 6450 5350
 Text Label 1150 5350 2    60   ~ 0
-data_intern_2
+data_1-2
+Text Label 2550 5350 0    60   ~ 0
+data_2-3
 $EndSCHEMATC
