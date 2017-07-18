@@ -7,8 +7,8 @@ The default LED-footprint is for [Nichia NSSM032A](http://www.nichia.co.jp/en/pr
 
 ## Project-Status
 this PCB is production ready.
-Order will soon be send to manufacture.
-I will update / report if i get back the pcbs and have assembled some.
+PCB is Orderd at [Aisler](https://go.aisler.net/s-light/ledboard_4x4_16bit/main-pcb)
+I will update / report as soon as i get back the pcbs and have assembled some.
 
 ### open ideas
 * add second branch with other nichia led type
