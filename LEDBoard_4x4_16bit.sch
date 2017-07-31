@@ -41,7 +41,7 @@ encoding utf-8
 Sheet 1 1
 Title "LEDBoard 4x4 16bit"
 Date "2017-07-13"
-Rev "0.1"
+Rev "1.0"
 Comp "s-light.eu"
 Comment1 "designed by Stefan Krüger"
 Comment2 "license: CC BY"
@@ -82,6 +82,8 @@ F 3 "" H 1150 2000 50  0001 C CNN
 F 4 "SMD-0603 2,7K" H 1150 2000 60  0001 C CNN "reichelt"
 F 5 "https://www.reichelt.de/SMD-0603-von-1-bis-910-kOhm/SMD-0603-2-7K/3/index.html?ACTION=3&GROUPID=7968&ARTICLE=89435&OFFSET=100&" H 1150 2000 60  0001 C CNN "reichelt_url"
 F 6 "RC0603FR-072K7L" H 1150 2000 60  0001 C CNN "YAGEO"
+F 7 "CRCW06032K70FKEB" H 1150 2000 60  0001 C CNN "Vishay"
+F 8 "71-CRCW06032K70FKEB " H 0   0   60  0001 C CNN "mouser"
 	1    1150 2000
 	1    0    0    -1  
 $EndComp
@@ -96,6 +98,8 @@ F 3 "" H 900 1400 50  0001 C CNN
 F 4 "X7R-G0603 100N" H 900 1400 60  0001 C CNN "reichelt"
 F 5 "https://www.reichelt.de/Vielschicht-SMD-G0603/X7R-G0603-100N/3/index.html?ACTION=3&GROUPID=3166&ARTICLE=31873&OFFSET=100&" H 900 1400 60  0001 C CNN "reichelt_url"
 F 6 "CC0603KRX7R7BB104" H 900 1400 60  0001 C CNN "YAGEO"
+F 7 "81-GRM39X104K50D" H 0   0   60  0001 C CNN "mouser"
+F 8 "GRM188R71H104KA93D" H 0   0   60  0001 C CNN "murata"
 	1    900  1400
 	1    0    0    -1  
 $EndComp
@@ -106,7 +110,9 @@ P 1850 2000
 F 0 "U1" H 1950 3000 60  0000 C CNN
 F 1 "TLC5971RGER" H 2150 2900 50  0000 C CNN
 F 2 "Housings_DFN_QFN:Texas_S-PVQFN-N24_ThermalVias" H 1850 1550 20  0000 C CNN
-F 3 "" H 1800 2000 60  0000 C CNN
+F 3 "http://www.ti.com/product/TLC5971/description" H 1800 2000 60  0001 C CNN
+F 4 "595-TLC5971RGER" H 1850 2000 60  0001 C CNN "mouser"
+F 5 "TLC5971RGER" H 1850 2000 60  0001 C CNN "texas instruments"
 	1    1850 2000
 	1    0    0    -1  
 $EndComp
@@ -237,6 +243,8 @@ F 3 "" H 6450 2000 50  0001 C CNN
 F 4 "SMD-0603 2,7K" H 1150 2000 60  0001 C CNN "reichelt"
 F 5 "https://www.reichelt.de/SMD-0603-von-1-bis-910-kOhm/SMD-0603-2-7K/3/index.html?ACTION=3&GROUPID=7968&ARTICLE=89435&OFFSET=100&" H 1150 2000 60  0001 C CNN "reichelt_url"
 F 6 "RC0603FR-072K7L" H 1150 2000 60  0001 C CNN "YAGEO"
+F 7 "CRCW06032K70FKEB" H 0   0   60  0001 C CNN "Vishay"
+F 8 "71-CRCW06032K70FKEB " H 0   0   60  0001 C CNN "mouser"
 	1    6450 2000
 	1    0    0    -1  
 $EndComp
@@ -251,6 +259,8 @@ F 3 "" H 6200 1400 50  0001 C CNN
 F 4 "X7R-G0603 100N" H 0   0   60  0001 C CNN "reichelt"
 F 5 "https://www.reichelt.de/Vielschicht-SMD-G0603/X7R-G0603-100N/3/index.html?ACTION=3&GROUPID=3166&ARTICLE=31873&OFFSET=100&" H 0   0   60  0001 C CNN "reichelt_url"
 F 6 "CC0603KRX7R7BB104" H 0   0   60  0001 C CNN "YAGEO"
+F 7 "81-GRM39X104K50D" H 0   0   60  0001 C CNN "mouser"
+F 8 "GRM188R71H104KA93D" H 0   0   60  0001 C CNN "murata"
 	1    6200 1400
 	1    0    0    -1  
 $EndComp
@@ -381,6 +391,8 @@ F 3 "" H 1150 4750 50  0001 C CNN
 F 4 "SMD-0603 2,7K" H 1150 2000 60  0001 C CNN "reichelt"
 F 5 "https://www.reichelt.de/SMD-0603-von-1-bis-910-kOhm/SMD-0603-2-7K/3/index.html?ACTION=3&GROUPID=7968&ARTICLE=89435&OFFSET=100&" H 1150 2000 60  0001 C CNN "reichelt_url"
 F 6 "RC0603FR-072K7L" H 1150 2000 60  0001 C CNN "YAGEO"
+F 7 "CRCW06032K70FKEB" H 0   0   60  0001 C CNN "Vishay"
+F 8 "71-CRCW06032K70FKEB " H 0   0   60  0001 C CNN "mouser"
 	1    1150 4750
 	1    0    0    -1  
 $EndComp
@@ -395,6 +407,8 @@ F 3 "" H 900 4150 50  0001 C CNN
 F 4 "X7R-G0603 100N" H 0   0   60  0001 C CNN "reichelt"
 F 5 "https://www.reichelt.de/Vielschicht-SMD-G0603/X7R-G0603-100N/3/index.html?ACTION=3&GROUPID=3166&ARTICLE=31873&OFFSET=100&" H 0   0   60  0001 C CNN "reichelt_url"
 F 6 "CC0603KRX7R7BB104" H 0   0   60  0001 C CNN "YAGEO"
+F 7 "81-GRM39X104K50D" H 0   0   60  0001 C CNN "mouser"
+F 8 "GRM188R71H104KA93D" H 0   0   60  0001 C CNN "murata"
 	1    900  4150
 	1    0    0    -1  
 $EndComp
@@ -406,6 +420,8 @@ F 0 "U3" H 1950 5750 60  0000 C CNN
 F 1 "TLC5971RGER" H 2150 5650 50  0000 C CNN
 F 2 "Housings_DFN_QFN:Texas_S-PVQFN-N24_ThermalVias" H 1850 4300 20  0000 C CNN
 F 3 "" H 1800 4750 60  0000 C CNN
+F 4 "595-TLC5971RGER" H 0   0   60  0001 C CNN "mouser"
+F 5 "TLC5971RGER" H 0   0   60  0001 C CNN "texas instruments"
 	1    1850 4750
 	1    0    0    -1  
 $EndComp
@@ -536,6 +552,8 @@ F 3 "" H 6450 4750 50  0001 C CNN
 F 4 "SMD-0603 2,7K" H 1150 2000 60  0001 C CNN "reichelt"
 F 5 "https://www.reichelt.de/SMD-0603-von-1-bis-910-kOhm/SMD-0603-2-7K/3/index.html?ACTION=3&GROUPID=7968&ARTICLE=89435&OFFSET=100&" H 1150 2000 60  0001 C CNN "reichelt_url"
 F 6 "RC0603FR-072K7L" H 1150 2000 60  0001 C CNN "YAGEO"
+F 7 "CRCW06032K70FKEB" H 0   0   60  0001 C CNN "Vishay"
+F 8 "71-CRCW06032K70FKEB " H 0   0   60  0001 C CNN "mouser"
 	1    6450 4750
 	1    0    0    -1  
 $EndComp
@@ -550,6 +568,8 @@ F 3 "" H 6200 4150 50  0001 C CNN
 F 4 "X7R-G0603 100N" H 0   0   60  0001 C CNN "reichelt"
 F 5 "https://www.reichelt.de/Vielschicht-SMD-G0603/X7R-G0603-100N/3/index.html?ACTION=3&GROUPID=3166&ARTICLE=31873&OFFSET=100&" H 0   0   60  0001 C CNN "reichelt_url"
 F 6 "CC0603KRX7R7BB104" H 0   0   60  0001 C CNN "YAGEO"
+F 7 "81-GRM39X104K50D" H 0   0   60  0001 C CNN "mouser"
+F 8 "GRM188R71H104KA93D" H 0   0   60  0001 C CNN "murata"
 	1    6200 4150
 	1    0    0    -1  
 $EndComp
@@ -561,6 +581,8 @@ F 0 "U4" H 7250 5750 60  0000 C CNN
 F 1 "TLC5971RGER" H 7450 5650 50  0000 C CNN
 F 2 "Housings_DFN_QFN:Texas_S-PVQFN-N24_ThermalVias" H 7150 4300 20  0000 C CNN
 F 3 "" H 7100 4750 60  0000 C CNN
+F 4 "595-TLC5971RGER" H 0   0   60  0001 C CNN "mouser"
+F 5 "TLC5971RGER" H 0   0   60  0001 C CNN "texas instruments"
 	1    7150 4750
 	1    0    0    -1  
 $EndComp
@@ -902,6 +924,8 @@ F 0 "U2" H 7250 3000 60  0000 C CNN
 F 1 "TLC5971RGER" H 7450 2900 50  0000 C CNN
 F 2 "Housings_DFN_QFN:Texas_S-PVQFN-N24_ThermalVias" H 7150 1550 20  0000 C CNN
 F 3 "" H 7100 2000 60  0000 C CNN
+F 4 "595-TLC5971RGER" H 0   0   60  0001 C CNN "mouser"
+F 5 "TLC5971RGER" H 0   0   60  0001 C CNN "texas instruments"
 	1    7150 2000
 	1    0    0    -1  
 $EndComp
@@ -1348,12 +1372,15 @@ L C C5
 U 1 1 596B946D
 P 6050 7150
 F 0 "C5" H 6165 7196 50  0000 L CNN
-F 1 "47uF" H 6165 7105 50  0000 L CNN
+F 1 "47uF 6.3V" H 6165 7105 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6088 7000 50  0001 C CNN
 F 3 "" H 6050 7150 50  0001 C CNN
 F 4 "X5R-G0603 47/6,3" H 6050 7150 60  0001 C CNN "reichelt"
 F 5 "https://www.reichelt.de/Vielschicht-SMD-G0603/X5R-G0603-47-6-3/3/index.html?ACTION=3&GROUPID=3166&ARTICLE=190489&OFFSET=100&" H 6050 7150 60  0001 C CNN "reichelt_url"
 F 6 "GRM188R60J476ME15D" H 6050 7150 60  0001 C CNN "murata"
+F 7 "ZRB18AR60J476ME01L" H 0   0   60  0001 C CNN "murata2"
+F 8 "81-GRM188R60J476ME5D" H 6050 7150 60  0001 C CNN "mouser"
+F 9 "81-ZRB18AR60J476ME1L " H 6050 7150 60  0001 C CNN "mouser2"
 	1    6050 7150
 	1    0    0    -1  
 $EndComp
@@ -1387,6 +1414,8 @@ F 0 "MK1" H 4050 6051 50  0000 L CNN
 F 1 "Mounting_Hole" H 4050 5960 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO7380_Pad" H 3950 6000 50  0001 C CNN
 F 3 "" H 3950 6000 50  0001 C CNN
+F 4 "2588-406" H 3950 6000 60  0001 C CNN "wegertseder"
+F 5 "https://www.wegertseder.com/ArticleDetails.aspx?AKNUM=2588" H 3950 6000 60  0001 C CNN "wegertseder_url"
 	1    3950 6000
 	1    0    0    -1  
 $EndComp
@@ -1411,7 +1440,8 @@ F 2 "Oddities:Dummy_Empty" H 5662 6100 50  0001 C CNN
 F 3 "" H 5662 6100 50  0001 C CNN
 F 4 "V ICK PGA36X36" H 5650 6100 60  0001 C CNN "reichelt"
 F 5 "https://www.reichelt.de/Stiftkuehlkoerper/V-ICK-PGA36X36/3/index.html?ACTION=3&GROUPID=7773&ARTICLE=100978&OFFSET=100&" H 5650 6100 60  0001 C CNN "reichelt_url"
-F 6 "10037097" H 5650 6100 60  0001 C CNN "FISCHER ELEKTRONIK"
+F 6 "10037097" H 5650 6100 60  0001 C CNN "fischer_elektronik"
+F 7 "http://www.fischerelektronik.de/web_fischer/de_DE/K%C3%BChlk%C3%B6rper/B01/K%C3%BChlk%C3%B6rper%20f%C3%BCr%20PGA/PR/ICKPGA14x14x12_/$productCard/parameters/index.xhtml" H 5650 6100 60  0001 C CNN "fischer_elektronik_url"
 	1    5650 6100
 	1    0    0    -1  
 $EndComp
@@ -1423,6 +1453,8 @@ F 0 "MK2" H 4800 6051 50  0000 L CNN
 F 1 "Mounting_Hole" H 4800 5960 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO7380_Pad" H 4700 6000 50  0001 C CNN
 F 3 "" H 4700 6000 50  0001 C CNN
+F 4 "2588-406" H 4700 6000 60  0001 C CNN "wegertseder"
+F 5 "https://www.wegertseder.com/ArticleDetails.aspx?AKNUM=2588" H 4700 6000 60  0001 C CNN "wegertseder_url"
 	1    4700 6000
 	1    0    0    -1  
 $EndComp

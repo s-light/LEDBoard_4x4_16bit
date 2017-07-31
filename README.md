@@ -22,27 +22,40 @@ I will update / report as soon as i get back the pcbs and have assembled some.
 
 
 ## Technical Information
-
-
 there are groups of 4 LEDs that are controlled by one TLC5971.  
 every controller chip has 12 ConstantCurrent outputs. so every LED is controllable individual.
 
 you need to create a mapping to linearize the order:
 **TODO: FILL IN MAPPING INFORMATION**
 
+
+
 ### HW
 * PCB size: 40x40x18mm
 * pixel-pitch: 10mm
 
-### controlling
-there are some Arduino Libraries out there that can generate the correct protocoll. (TODO: add links to libraries.)
+### BOM
+there is the raw exported BOM at [export/BOM/LEDBoard_4x4_16bit_BOM.csv](export/BOM/LEDBoard_4x4_16bit_BOM.csv) and an modified LibreOffice Calc file with ordering and Price calculations at [doc/LEDBoard_4x4_16bit_PriceCalculation_Ordering](doc/LEDBoard_4x4_16bit_PriceCalculation_Ordering.csv) (link points to exported csv as preview)
 
+
+
+### controlling
+
+#### Micro Controller / Arduino
+there are some Arduino Libraries out there that can generate the correct protocoll. My Favorit is [ulrichstern/Tlc59711](https://github.com/ulrichstern/Tlc59711)
+
+i have made a [simple arduino sketch](https://github.com/s-light/LEDBoard_4x4_16bit_HWTest) that uses the mentioned library to test the Boards during production.
+
+
+#### embedded linux boards
 Additionally you can use a embedded linux board with an SPI output to drive them.
 I have successuflly implemented the protocoll in my fork of OLA.
 (TODO: Link and explain OLA setup)
 
 there are also other python libraries out there.
 (TODO: test some of theme and link here)
+
+
 
 ### power & signal connections
 theoretically calculate with about 1A@5V for every Board.

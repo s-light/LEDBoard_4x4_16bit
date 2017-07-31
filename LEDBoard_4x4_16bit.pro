@@ -1,4 +1,4 @@
-update=Di 18 Jul 2017 09:40:01 CEST
+update=Di 25 Jul 2017 15:54:50 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,5 +61,15 @@ LibName31=leds
 LibName32=led_bgr
 LibName33=/home/stefan/mydata/kicad/mylib/TI_TLC5971/TI_TLC5971
 LibName34=mechanical
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=export/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [general]
 version=1
