@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/stefan/mydata/github/LEDBoard_4x4_16bit/LEDBoard_4x4_16bit.sch</source>
+    <date>Di 25 Jul 2017 10:54:04 CEST</date>
+    <tool>Eeschema no-vcs-found-c290e8a~59~ubuntu17.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LEDBoard 4x4 16bit</title>
+        <company>s-light.eu</company>
+        <rev>1.0</rev>
+        <date>2017-07-13</date>
+        <source>LEDBoard_4x4_16bit.sch</source>
+        <comment number="1" value="designed by Stefan Krüger"/>
+        <comment number="2" value="license: CC BY"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1.1">
+      <value>LED_1.1</value>
+      <footprint>nichia:LED_NSSM032AT_wViaHeatSinkBig</footprint>
+      <fields>
+        <field name="Nichia part">NSSM032A</field>
+      </fields>
+      <libsource lib="led_bgr" part="LED_BGR_DieOnCathodeSide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59673ECD</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2k7 1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="reichelt">SMD-0603 2,7K</field>
+        <field name="reichelt_url">https://www.reichelt.de/SMD-0603-von-1-bis-910-kOhm/SMD-0603-2-7K/3/index.html?ACTION=3&amp;GROUPID=7968&amp;ARTICLE=89435&amp;OFFSET=100&amp;</field>
+        <field name="YAGEO">RC0603FR-072K7L</field>
+        <field name="Vishay">CRCW06032K70FKEB</field>
+        <field name="mouser">71-CRCW06032K70FKEB </field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59674EB6</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="reichelt">X7R-G0603 100N</field>
+        <field name="reichelt_url">https://www.reichelt.de/Vielschicht-SMD-G0603/X7R-G0603-100N/3/index.html?ACTION=3&amp;GROUPID=3166&amp;ARTICLE=31873&amp;OFFSET=100&amp;</field>
+        <field name="YAGEO">CC0603KRX7R7BB104</field>
+        <field name="mouser">81-GRM39X104K50D</field>
+        <field name="murata">GRM188R71H104KA93D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5967513F</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TLC5971RGER</value>
+      <footprint>Housings_DFN_QFN:Texas_S-PVQFN-N24_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/product/TLC5971/description</datasheet>
+      <fields>
+        <field name="mouser">595-TLC5971RGER</field>
+        <field name="texas instruments">TLC5971RGER</field>
+      </fields>
+      <libsource lib="TI_TLC5971" part="TLC5971RGER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596752BA</tstamp>
+    </comp>
+    <comp ref="D1.2">
+      <value>LED_1.2</value>
+      <footprint>nichia:LED_NSSM032AT_wViaHeatSinkBig</footprint>
+      <fields>
+        <field name="Nichia part">NSSM032A</field>
+      </fields>
+      <libsource lib="led_bgr" part="LED_BGR_DieOnCathodeSide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596757FD</tstamp>
+    </comp>
+    <comp ref="D2.1">
+      <value>LED_2.1</value>
+      <footprint>nichia:LED_NSSM032AT_wViaHeatSinkBig</footprint>
+      <fields>
+        <field name="Nichia part">NSSM032A</field>
+      </fields>
+      <libsource lib="led_bgr" part="LED_BGR_DieOnCathodeSide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59675A66</tstamp>
+    </comp>
+    <comp ref="D2.2">
+      <value>LED_2.2</value>
+      <footprint>nichia:LED_NSSM032AT_wViaHeatSinkBig</footprint>
+      <fields>
+        <field name="Nichia part">NSSM032A</field>
+      </fields>
+      <libsource lib="led_bgr" part="LED_BGR_DieOnCathodeSide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59675A6E</tstamp>
+    </comp>
+    <comp ref="D3.1">
+      <value>LED_3.1</value>
+      <footprint>nichia:LED_NSSM032AT_wViaHeatSinkBig</footprint>
+      <fields>
+        <field name="Nichia part">NSSM032A</field>
+      </fields>
+      <libsource lib="led_bgr" part="LED_BGR_DieOnCathodeSide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59677C32</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2k7 1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="reichelt">SMD-0603 2,7K</field>
+        <field name="reichelt_url">https://www.reichelt.de/SMD-0603-von-1-bis-910-kOhm/SMD-0603-2-7K/3/index.html?ACTION=3&amp;GROUPID=7968&amp;ARTICLE=89435&amp;OFFSET=100&amp;</field>
+        <field name="YAGEO">RC0603FR-072K7L</field>
+        <field name="Vishay">CRCW06032K70FKEB</field>
+        <field name="mouser">71-CRCW06032K70FKEB </field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59677C44</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="reichelt">X7R-G0603 100N</field>
+        <field name="reichelt_url">https://www.reichelt.de/Vielschicht-SMD-G0603/X7R-G0603-100N/3/index.html?ACTION=3&amp;GROUPID=3166&amp;ARTICLE=31873&amp;OFFSET=100&amp;</field>
+        <field name="YAGEO">CC0603KRX7R7BB104</field>
+        <field name="mouser">81-GRM39X104K50D</field>
+        <field name="murata">GRM188R71H104KA93D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59677C4A</tstamp>
+    </comp>
+    <comp ref="D3.2">
+      <value>LED_3.2</value>
+      <footprint>nichia:LED_NSSM032AT_wViaHeatSinkBig</footprint>
+      <fields>
+        <field name="Nichia part">NSSM032A</field>
+      </fields>
+      <libsource lib="led_bgr" part="LED_BGR_DieOnCathodeSide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59677C57</tstamp>
+    </comp>
+    <comp ref="D4.1">
+      <value>LED_4.1</value>
+      <footprint>nichia:LED_NSSM032AT_wViaHeatSinkBig</footprint>
+      <fields>
+        <field name="Nichia part">NSSM032A</field>
+      </fields>
+      <libsource lib="led_bgr" part="LED_BGR_DieOnCathodeSide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59677C5E</tstamp>
+    </comp>
+    <comp ref="D4.2">
+      <value>LED_4.2</value>
+      <footprint>nichia:LED_NSSM032AT_wViaHeatSinkBig</footprint>
+      <fields>
+        <field name="Nichia part">NSSM032A</field>
+      </fields>
+      <libsource lib="led_bgr" part="LED_BGR_DieOnCathodeSide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59677C65</tstamp>
+    </comp>
+    <comp ref="D1.3">
+      <value>LED_1.3</value>
+      <footprint>nichia:LED_NSSM032AT_wViaHeatSinkBig</footprint>
+      <fields>
+        <field name="Nichia part">NSSM032A</field>
+      </fields>
+      <libsource lib="led_bgr" part="LED_BGR_DieOnCathodeSide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59678BE4</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2k7 1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="reichelt">SMD-0603 2,7K</field>
+        <field name="reichelt_url">https://www.reichelt.de/SMD-0603-von-1-bis-910-kOhm/SMD-0603-2-7K/3/index.html?ACTION=3&amp;GROUPID=7968&amp;ARTICLE=89435&amp;OFFSET=100&amp;</field>
+        <field name="YAGEO">RC0603FR-072K7L</field>
+        <field name="Vishay">CRCW06032K70FKEB</field>
+        <field name="mouser">71-CRCW06032K70FKEB </field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59678BF6</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="reichelt">X7R-G0603 100N</field>
+        <field name="reichelt_url">https://www.reichelt.de/Vielschicht-SMD-G0603/X7R-G0603-100N/3/index.html?ACTION=3&amp;GROUPID=3166&amp;ARTICLE=31873&amp;OFFSET=100&amp;</field>
+        <field name="YAGEO">CC0603KRX7R7BB104</field>
+        <field name="mouser">81-GRM39X104K50D</field>
+        <field name="murata">GRM188R71H104KA93D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59678BFC</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TLC5971RGER</value>
+      <footprint>Housings_DFN_QFN:Texas_S-PVQFN-N24_ThermalVias</footprint>
+      <fields>
+        <field name="mouser">595-TLC5971RGER</field>
+        <field name="texas instruments">TLC5971RGER</field>
+      </fields>
+      <libsource lib="TI_TLC5971" part="TLC5971RGER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59678C02</tstamp>
+    </comp>
+    <comp ref="D1.4">
+      <value>LED_1.4</value>
+      <footprint>nichia:LED_NSSM032AT_wViaHeatSinkBig</footprint>
+      <fields>
+        <field name="Nichia part">NSSM032A</field>
+      </fields>
+      <libsource lib="led_bgr" part="LED_BGR_DieOnCathodeSide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59678C09</tstamp>
+    </comp>
+    <comp ref="D2.3">
+      <value>LED_2.3</value>
+      <footprint>nichia:LED_NSSM032AT_wViaHeatSinkBig</footprint>
+      <fields>
+        <field name="Nichia part">NSSM032A</field>
+      </fields>
+      <libsource lib="led_bgr" part="LED_BGR_DieOnCathodeSide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59678C10</tstamp>
+    </comp>
+    <comp ref="D2.4">
+      <value>LED_2.4</value>
+      <footprint>nichia:LED_NSSM032AT_wViaHeatSinkBig</footprint>
+      <fields>
+        <field name="Nichia part">NSSM032A</field>
+      </fields>
+      <libsource lib="led_bgr" part="LED_BGR_DieOnCathodeSide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59678C17</tstamp>
+    </comp>
+    <comp ref="D3.3">
+      <value>LED_3.3</value>
+      <footprint>nichia:LED_NSSM032AT_wViaHeatSinkBig</footprint>
+      <fields>
+        <field name="Nichia part">NSSM032A</field>
+      </fields>
+      <libsource lib="led_bgr" part="LED_BGR_DieOnCathodeSide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59678C48</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2k7 1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="reichelt">SMD-0603 2,7K</field>
+        <field name="reichelt_url">https://www.reichelt.de/SMD-0603-von-1-bis-910-kOhm/SMD-0603-2-7K/3/index.html?ACTION=3&amp;GROUPID=7968&amp;ARTICLE=89435&amp;OFFSET=100&amp;</field>
+        <field name="YAGEO">RC0603FR-072K7L</field>
+        <field name="Vishay">CRCW06032K70FKEB</field>
+        <field name="mouser">71-CRCW06032K70FKEB </field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59678C5A</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="reichelt">X7R-G0603 100N</field>
+        <field name="reichelt_url">https://www.reichelt.de/Vielschicht-SMD-G0603/X7R-G0603-100N/3/index.html?ACTION=3&amp;GROUPID=3166&amp;ARTICLE=31873&amp;OFFSET=100&amp;</field>
+        <field name="YAGEO">CC0603KRX7R7BB104</field>
+        <field name="mouser">81-GRM39X104K50D</field>
+        <field name="murata">GRM188R71H104KA93D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59678C60</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TLC5971RGER</value>
+      <footprint>Housings_DFN_QFN:Texas_S-PVQFN-N24_ThermalVias</footprint>
+      <fields>
+        <field name="mouser">595-TLC5971RGER</field>
+        <field name="texas instruments">TLC5971RGER</field>
+      </fields>
+      <libsource lib="TI_TLC5971" part="TLC5971RGER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59678C66</tstamp>
+    </comp>
+    <comp ref="D3.4">
+      <value>LED_3.4</value>
+      <footprint>nichia:LED_NSSM032AT_wViaHeatSinkBig</footprint>
+      <fields>
+        <field name="Nichia part">NSSM032A</field>
+      </fields>
+      <libsource lib="led_bgr" part="LED_BGR_DieOnCathodeSide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59678C6D</tstamp>
+    </comp>
+    <comp ref="D4.3">
+      <value>LED_4.3</value>
+      <footprint>nichia:LED_NSSM032AT_wViaHeatSinkBig</footprint>
+      <fields>
+        <field name="Nichia part">NSSM032A</field>
+      </fields>
+      <libsource lib="led_bgr" part="LED_BGR_DieOnCathodeSide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59678C74</tstamp>
+    </comp>
+    <comp ref="D4.4">
+      <value>LED_4.4</value>
+      <footprint>nichia:LED_NSSM032AT_wViaHeatSinkBig</footprint>
+      <fields>
+        <field name="Nichia part">NSSM032A</field>
+      </fields>
+      <libsource lib="led_bgr" part="LED_BGR_DieOnCathodeSide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59678C7B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TLC5971RGER</value>
+      <footprint>Housings_DFN_QFN:Texas_S-PVQFN-N24_ThermalVias</footprint>
+      <fields>
+        <field name="mouser">595-TLC5971RGER</field>
+        <field name="texas instruments">TLC5971RGER</field>
+      </fields>
+      <libsource lib="TI_TLC5971" part="TLC5971RGER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59677C50</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>signal_out</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02_FEMALE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59685AEA</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>signal_in</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02_MALE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596860B5</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>power</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596880C8</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>47uF 6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="reichelt">X5R-G0603 47/6,3</field>
+        <field name="reichelt_url">https://www.reichelt.de/Vielschicht-SMD-G0603/X5R-G0603-47-6-3/3/index.html?ACTION=3&amp;GROUPID=3166&amp;ARTICLE=190489&amp;OFFSET=100&amp;</field>
+        <field name="murata">GRM188R60J476ME15D</field>
+        <field name="murata2">ZRB18AR60J476ME01L</field>
+        <field name="mouser">81-GRM188R60J476ME5D</field>
+        <field name="mouser2">81-ZRB18AR60J476ME1L </field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596B946D</tstamp>
+    </comp>
+    <comp ref="MK1">
+      <value>Mounting_Hole</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_ISO7380_Pad</footprint>
+      <fields>
+        <field name="wegertseder">2588-406</field>
+        <field name="wegertseder_url">https://www.wegertseder.com/ArticleDetails.aspx?AKNUM=2588</field>
+      </fields>
+      <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596BEA50</tstamp>
+    </comp>
+    <comp ref="HS1">
+      <value>Heatsink</value>
+      <footprint>Oddities:Dummy_Empty</footprint>
+      <fields>
+        <field name="reichelt">V ICK PGA36X36</field>
+        <field name="reichelt_url">https://www.reichelt.de/Stiftkuehlkoerper/V-ICK-PGA36X36/3/index.html?ACTION=3&amp;GROUPID=7773&amp;ARTICLE=100978&amp;OFFSET=100&amp;</field>
+        <field name="fischer_elektronik">10037097</field>
+        <field name="fischer_elektronik_url">http://www.fischerelektronik.de/web_fischer/de_DE/K%C3%BChlk%C3%B6rper/B01/K%C3%BChlk%C3%B6rper%20f%C3%BCr%20PGA/PR/ICKPGA14x14x12_/$productCard/parameters/index.xhtml</field>
+      </fields>
+      <libsource lib="mechanical" part="Heatsink"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596BEC2E</tstamp>
+    </comp>
+    <comp ref="MK2">
+      <value>Mounting_Hole</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_ISO7380_Pad</footprint>
+      <fields>
+        <field name="wegertseder">2588-406</field>
+        <field name="wegertseder_url">https://www.wegertseder.com/ArticleDetails.aspx?AKNUM=2588</field>
+      </fields>
+      <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596BF4CB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02_FEMALE">
+      <description>Generic Female Connector, Single Row, 01x02, socket header</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02_FEMALE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02_MALE">
+      <description>Generic Male Connector, single row, 01x02, pin header</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02_MALE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <description>Connector, single row, 01x06, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mechanical" part="Heatsink">
+      <description>Heatsink</description>
+      <fields>
+        <field name="Reference">HS</field>
+        <field name="Value">Heatsink</field>
+      </fields>
+    </libpart>
+    <libpart lib="led_bgr" part="LED_BGR_DieOnCathodeSide">
+      <description>LED BGR 6 pins (die on cathode side)</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_BGR_DieOnCathodeSide</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RK" type="passive"/>
+        <pin num="2" name="GK" type="passive"/>
+        <pin num="3" name="BK" type="passive"/>
+        <pin num="4" name="BA" type="passive"/>
+        <pin num="5" name="GA" type="passive"/>
+        <pin num="6" name="RA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mechanical" part="Mounting_Hole_PAD">
+      <description>Mounting Hole with connection</description>
+      <footprints>
+        <fp>Mounting?Hole*</fp>
+        <fp>Hole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MK</field>
+        <field name="Value">Mounting_Hole_PAD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TI_TLC5971" part="TLC5971RGER">
+      <aliases>
+        <alias>TLC5971RGET</alias>
+      </aliases>
+      <description>TI TLC5971 - 12-Channel, 16-Bit, Enhanced Spectrum, PWM, RGB, LED Driver with 3.3-V Linear Regulator</description>
+      <docs>http://www.ti.com/product/TLC5971/description</docs>
+      <footprints>
+        <fp>QFN-24</fp>
+        <fp>QFN</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLC5971RGER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDTI" type="input"/>
+        <pin num="2" name="SCKI" type="input"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="SCKO" type="output"/>
+        <pin num="6" name="17" type="NotConnected"/>
+        <pin num="7" name="OUTR2" type="power_out"/>
+        <pin num="8" name="OUTG2" type="power_out"/>
+        <pin num="9" name="OUTB2" type="power_out"/>
+        <pin num="10" name="OUTR3" type="power_out"/>
+        <pin num="11" name="OUTG3" type="power_out"/>
+        <pin num="12" name="OUTB3" type="power_out"/>
+        <pin num="13" name="VCC" type="power_in"/>
+        <pin num="14" name="NC" type="NotConnected"/>
+        <pin num="15" name="VREG" type="power_in"/>
+        <pin num="16" name="IREF" type="input"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="OUTR0" type="power_out"/>
+        <pin num="20" name="OUTG0" type="power_out"/>
+        <pin num="21" name="OUTB0" type="power_out"/>
+        <pin num="22" name="OUTR1" type="power_out"/>
+        <pin num="23" name="OUTG1" type="power_out"/>
+        <pin num="24" name="OUTB1" type="power_out"/>
+        <pin num="25" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="led_bgr">
+      <uri>/home/stefan/mydata/kicad/mylib/schematic_parts/led_bgr.lib</uri>
+    </library>
+    <library logical="TI_TLC5971">
+      <uri>/home/stefan/mydata/kicad/mylib/TI_TLC5971/TI_TLC5971.lib</uri>
+    </library>
+    <library logical="mechanical">
+      <uri>/usr/share/kicad/library/mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/clock_1-2">
+      <node ref="U2" pin="5"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="2" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="3" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="4" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="5" name="/LED_3.2_R">
+      <node ref="D3.2" pin="3"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="6" name="/LED_3.2_G">
+      <node ref="D3.2" pin="2"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="7" name="/LED_3.2_B">
+      <node ref="D3.2" pin="1"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="8" name="/LED_4.2_R">
+      <node ref="U2" pin="10"/>
+      <node ref="D4.2" pin="3"/>
+    </net>
+    <net code="9" name="/LED_3.1_G">
+      <node ref="U2" pin="20"/>
+      <node ref="D3.1" pin="2"/>
+    </net>
+    <net code="10" name="/LED_4.2_G">
+      <node ref="D4.2" pin="2"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="11" name="/LED_3.1_B">
+      <node ref="D3.1" pin="1"/>
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="12" name="/U2_sense">
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="13" name="/LED_4.2_B">
+      <node ref="D4.2" pin="1"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="14" name="/LED_4.1_R">
+      <node ref="U2" pin="22"/>
+      <node ref="D4.1" pin="3"/>
+    </net>
+    <net code="15" name="/LED_4.1_G">
+      <node ref="D4.1" pin="2"/>
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="16" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="17" name="/LED_4.1_B">
+      <node ref="U2" pin="24"/>
+      <node ref="D4.1" pin="1"/>
+    </net>
+    <net code="18" name="/LED_3.1_R">
+      <node ref="D3.1" pin="3"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="19" name="GND">
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J2" pin="4"/>
+      <node ref="C5" pin="2"/>
+      <node ref="MK2" pin="1"/>
+      <node ref="MK1" pin="1"/>
+      <node ref="U3" pin="25"/>
+      <node ref="U4" pin="25"/>
+      <node ref="U4" pin="18"/>
+      <node ref="U3" pin="18"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="25"/>
+      <node ref="U1" pin="18"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U2" pin="18"/>
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="20" name="/data_1-2">
+      <node ref="U3" pin="1"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="21" name="/data_2-3">
+      <node ref="U4" pin="1"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="22" name="/data_out">
+      <node ref="U4" pin="6"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="23" name="/clock_out">
+      <node ref="J6" pin="2"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="24" name="/U3_sense">
+      <node ref="U3" pin="16"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="25" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="26" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="27" name="/clock_2-3">
+      <node ref="U3" pin="5"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="28" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="29" name="/LED_1.4_R">
+      <node ref="D1.4" pin="3"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="30" name="/LED_1.4_G">
+      <node ref="U3" pin="8"/>
+      <node ref="D1.4" pin="2"/>
+    </net>
+    <net code="31" name="/LED_2.1_R">
+      <node ref="U1" pin="22"/>
+      <node ref="D2.1" pin="3"/>
+    </net>
+    <net code="32" name="/LED_1.2_R">
+      <node ref="U1" pin="7"/>
+      <node ref="D1.2" pin="3"/>
+    </net>
+    <net code="33" name="/LED_1.2_G">
+      <node ref="U1" pin="8"/>
+      <node ref="D1.2" pin="2"/>
+    </net>
+    <net code="34" name="/LED_1.2_B">
+      <node ref="D1.2" pin="1"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="35" name="/LED_2.2_R">
+      <node ref="D2.2" pin="3"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="36" name="/LED_1.1_G">
+      <node ref="U1" pin="20"/>
+      <node ref="D1.1" pin="2"/>
+    </net>
+    <net code="37" name="/LED_2.2_G">
+      <node ref="U1" pin="11"/>
+      <node ref="D2.2" pin="2"/>
+    </net>
+    <net code="38" name="/LED_1.1_B">
+      <node ref="U1" pin="21"/>
+      <node ref="D1.1" pin="1"/>
+    </net>
+    <net code="39" name="/LED_2.2_B">
+      <node ref="U1" pin="12"/>
+      <node ref="D2.2" pin="1"/>
+    </net>
+    <net code="40" name="/data_0-1">
+      <node ref="U1" pin="6"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="41" name="/LED_2.1_G">
+      <node ref="D2.1" pin="2"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="42" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="43" name="/LED_2.1_B">
+      <node ref="D2.1" pin="1"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="44" name="/U1_sense">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="45" name="/LED_1.1_R">
+      <node ref="U1" pin="19"/>
+      <node ref="D1.1" pin="3"/>
+    </net>
+    <net code="46" name="/data_in">
+      <node ref="U1" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="47" name="/clock_in">
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="48" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="49" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="50" name="/clock_0-1">
+      <node ref="U1" pin="5"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="51" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="52" name="VCC">
+      <node ref="U1" pin="13"/>
+      <node ref="D2.2" pin="6"/>
+      <node ref="U1" pin="15"/>
+      <node ref="D3.4" pin="4"/>
+      <node ref="D1.1" pin="4"/>
+      <node ref="D1.1" pin="5"/>
+      <node ref="D1.1" pin="6"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D2.3" pin="6"/>
+      <node ref="D2.3" pin="4"/>
+      <node ref="D1.4" pin="6"/>
+      <node ref="D1.4" pin="5"/>
+      <node ref="D1.4" pin="4"/>
+      <node ref="D2.3" pin="5"/>
+      <node ref="D2.4" pin="4"/>
+      <node ref="D3.3" pin="5"/>
+      <node ref="C4" pin="1"/>
+      <node ref="D3.3" pin="6"/>
+      <node ref="D3.3" pin="4"/>
+      <node ref="U3" pin="15"/>
+      <node ref="U3" pin="13"/>
+      <node ref="D2.4" pin="6"/>
+      <node ref="D2.4" pin="5"/>
+      <node ref="D2.1" pin="5"/>
+      <node ref="D4.3" pin="6"/>
+      <node ref="D4.3" pin="5"/>
+      <node ref="D4.3" pin="4"/>
+      <node ref="D3.4" pin="6"/>
+      <node ref="D3.4" pin="5"/>
+      <node ref="D2.2" pin="4"/>
+      <node ref="D2.1" pin="6"/>
+      <node ref="D4.4" pin="4"/>
+      <node ref="D2.1" pin="4"/>
+      <node ref="D1.2" pin="6"/>
+      <node ref="D1.2" pin="5"/>
+      <node ref="D1.2" pin="4"/>
+      <node ref="D2.2" pin="5"/>
+      <node ref="U4" pin="15"/>
+      <node ref="U4" pin="13"/>
+      <node ref="D4.4" pin="6"/>
+      <node ref="D4.4" pin="5"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="D3.1" pin="5"/>
+      <node ref="D3.1" pin="4"/>
+      <node ref="D3.1" pin="6"/>
+      <node ref="D4.2" pin="6"/>
+      <node ref="D4.2" pin="5"/>
+      <node ref="D4.2" pin="4"/>
+      <node ref="D3.2" pin="5"/>
+      <node ref="D4.1" pin="6"/>
+      <node ref="D4.1" pin="5"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U2" pin="15"/>
+      <node ref="D1.3" pin="4"/>
+      <node ref="C3" pin="1"/>
+      <node ref="D1.3" pin="6"/>
+      <node ref="D1.3" pin="5"/>
+      <node ref="D3.2" pin="4"/>
+      <node ref="J2" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J2" pin="5"/>
+      <node ref="D3.2" pin="6"/>
+      <node ref="D4.1" pin="4"/>
+    </net>
+    <net code="53" name="/LED_1.4_B">
+      <node ref="U3" pin="9"/>
+      <node ref="D1.4" pin="1"/>
+    </net>
+    <net code="54" name="/LED_3.3_R">
+      <node ref="U4" pin="19"/>
+      <node ref="D3.3" pin="3"/>
+    </net>
+    <net code="55" name="/LED_4.3_R">
+      <node ref="U4" pin="22"/>
+      <node ref="D4.3" pin="3"/>
+    </net>
+    <net code="56" name="/LED_3.4_R">
+      <node ref="D3.4" pin="3"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="57" name="/LED_3.4_G">
+      <node ref="D3.4" pin="2"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="58" name="/LED_3.4_B">
+      <node ref="D3.4" pin="1"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="59" name="/LED_4.4_R">
+      <node ref="U4" pin="10"/>
+      <node ref="D4.4" pin="3"/>
+    </net>
+    <net code="60" name="/LED_3.3_G">
+      <node ref="D3.3" pin="2"/>
+      <node ref="U4" pin="20"/>
+    </net>
+    <net code="61" name="/LED_4.4_G">
+      <node ref="U4" pin="11"/>
+      <node ref="D4.4" pin="2"/>
+    </net>
+    <net code="62" name="/LED_3.3_B">
+      <node ref="D3.3" pin="1"/>
+      <node ref="U4" pin="21"/>
+    </net>
+    <net code="63" name="/LED_4.4_B">
+      <node ref="D4.4" pin="1"/>
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="64" name="/LED_4.3_G">
+      <node ref="D4.3" pin="2"/>
+      <node ref="U4" pin="23"/>
+    </net>
+    <net code="65" name="Net-(U4-Pad14)">
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="66" name="/LED_4.3_B">
+      <node ref="D4.3" pin="1"/>
+      <node ref="U4" pin="24"/>
+    </net>
+    <net code="67" name="/U4_sense">
+      <node ref="U4" pin="16"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="68" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="69" name="/LED_2.4_R">
+      <node ref="D2.4" pin="3"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="70" name="/LED_1.3_G">
+      <node ref="D1.3" pin="2"/>
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="71" name="/LED_2.4_G">
+      <node ref="U3" pin="11"/>
+      <node ref="D2.4" pin="2"/>
+    </net>
+    <net code="72" name="/LED_1.3_B">
+      <node ref="D1.3" pin="1"/>
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="73" name="/LED_2.4_B">
+      <node ref="D2.4" pin="1"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="74" name="/LED_2.3_R">
+      <node ref="D2.3" pin="3"/>
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="75" name="/LED_2.3_G">
+      <node ref="U3" pin="23"/>
+      <node ref="D2.3" pin="2"/>
+    </net>
+    <net code="76" name="/LED_2.3_B">
+      <node ref="U3" pin="24"/>
+      <node ref="D2.3" pin="1"/>
+    </net>
+    <net code="77" name="/LED_1.3_R">
+      <node ref="D1.3" pin="3"/>
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="78" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="79" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="80" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+    </net>
+  </nets>
+</export>
