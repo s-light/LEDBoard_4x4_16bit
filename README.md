@@ -6,13 +6,13 @@ It uses the [TI TLC5971](http://www.ti.com/product/TLC5971?keyMatch=tlc5971&tise
 The default LED-footprint is for [Nichia NSSM032A](http://www.nichia.co.jp/en/product/led_product_data.html?type=%27NSSM032A%27) RGB-LED
 
 ## Project-Status
-* PCB is Orderd at [Aisler](https://go.aisler.net/s-light/ledboard_4x4_16bit/main-pcb)  
-* Heat Sink with machining and Thermal Foil is requested at [Fischer Elektronik](http://www.fischerelektronik.de/web_fischer/de_DE/K%C3%BChlk%C3%B6rper/B01/K%C3%BChlk%C3%B6rper%20f%C3%BCr%20PGA/PR/ICKPGA14x14x12_/$productCard/parameters/index.xhtml)
+* received first Batch
+* one PCB assembled and tested: working :sun_with_face:
+* made some picture from the assembly process: [gallery](./doc/gallery.md)
 
 ### TODO
-* finish BOM
 * order screws at [Wegertseder](https://www.wegertseder.com/ArticleDetails.aspx?AKNUM=2588)
-* order other parts at mouser
+* order Heat Sink with machining and Thermal Foil from [Fischer Elektronik](http://www.fischerelektronik.de/web_fischer/de_DE/K%C3%BChlk%C3%B6rper/B01/K%C3%BChlk%C3%B6rper%20f%C3%BCr%20PGA/PR/ICKPGA14x14x12_/$productCard/parameters/index.xhtml)
 
 I will update / report as soon as i get back the pcbs and have assembled some.
 
