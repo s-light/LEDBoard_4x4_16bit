@@ -1244,6 +1244,7 @@ F 0 "J6" H 2350 7500 50  0000 L CNN
 F 1 "signal_out" V 2550 7050 50  0000 L CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 2350 7350 50  0001 C CNN
 F 3 "" H 2350 7350 50  0001 C CNN
+F 4 "MPE 115-1-004" H 2350 7250 60  0001 C CNN "reichelt"
 	1    2350 7250
 	1    0    0    -1  
 $EndComp
@@ -1255,6 +1256,7 @@ F 0 "J1" H 950 7500 50  0000 C CNN
 F 1 "signal_in" V 800 7250 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 1000 7350 50  0001 C CNN
 F 3 "" H 1000 7350 50  0001 C CNN
+F 4 "MPE 115-1-004" H 1000 7250 60  0001 C CNN "reichelt"
 	1    1000 7250
 	1    0    0    -1  
 $EndComp
@@ -1277,6 +1279,7 @@ F 0 "J2" H 3950 7400 50  0000 C CNN
 F 1 "power" V 4050 7000 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm" H 3950 7000 50  0001 C CNN
 F 3 "" H 3950 7000 50  0001 C CNN
+F 4 "MPE 115-1-006" H 3950 7000 60  0001 C CNN "reichelt"
 	1    3950 7000
 	-1   0    0    -1  
 $EndComp

@@ -18,9 +18,9 @@ D4.2 ,1,"LED_4.2","nichia:LED_NSSM032AT_wViaHeatSinkBig","","NSSM032A",,,,,,,,,,
 D4.3 ,1,"LED_4.3","nichia:LED_NSSM032AT_wViaHeatSinkBig","","NSSM032A",,,,,,,,,,,,,
 D4.4 ,1,"LED_4.4","nichia:LED_NSSM032AT_wViaHeatSinkBig","","NSSM032A",,,,,,,,,,,,,
 HS1 ,1,"Heatsink","Oddities:Dummy_Empty","",,"V ICK PGA36X36","https://www.reichelt.de/Stiftkuehlkoerper/V-ICK-PGA36X36/3/index.html?ACTION=3&GROUPID=7773&ARTICLE=100978&OFFSET=100&",,,,,,,,,,"10037097","http://www.fischerelektronik.de/web_fischer/de_DE/K%C3%BChlk%C3%B6rper/B01/K%C3%BChlk%C3%B6rper%20f%C3%BCr%20PGA/PR/ICKPGA14x14x12_/$productCard/parameters/index.xhtml"
-J1 ,1,"signal_in","Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm",""
-J2 ,1,"power","Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm",""
-J6 ,1,"signal_out","Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm",""
+J1 ,1,"signal_in","Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm","",,"MPE 115-1-004",,,,,,,,,,,,
+J2 ,1,"power","Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm","",,"MPE 115-1-006",,,,,,,,,,,,
+J6 ,1,"signal_out","Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm","",,"MPE 115-1-004",,,,,,,,,,,,
 MK1 MK2 ,2,"Mounting_Hole","Mounting_Holes:MountingHole_3.2mm_M3_ISO7380_Pad","",,,,,,,,,,,"2588-406","https://www.wegertseder.com/ArticleDetails.aspx?AKNUM=2588",,
 R1 R2 R3 R4 ,4,"2k7 1%","Resistors_SMD:R_0603","",,"SMD-0603 2,7K","https://www.reichelt.de/SMD-0603-von-1-bis-910-kOhm/SMD-0603-2-7K/3/index.html?ACTION=3&GROUPID=7968&ARTICLE=89435&OFFSET=100&","RC0603FR-072K7L","CRCW06032K70FKEB","71-CRCW06032K70FKEB ",,,,,,,,
 U1 U2 U3 U4 ,4,"TLC5971RGER","Housings_DFN_QFN:Texas_S-PVQFN-N24_ThermalVias","http://www.ti.com/product/TLC5971/description",,,,,,"595-TLC5971RGER",,"TLC5971RGER",,,,,,

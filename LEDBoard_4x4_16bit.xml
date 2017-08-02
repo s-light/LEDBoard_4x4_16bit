@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/stefan/mydata/github/LEDBoard_4x4_16bit/LEDBoard_4x4_16bit.sch</source>
-    <date>Di 25 Jul 2017 10:54:04 CEST</date>
-    <tool>Eeschema no-vcs-found-c290e8a~59~ubuntu17.04.1</tool>
+    <date>Mi 02 Aug 2017 18:05:25 CEST</date>
+    <tool>Eeschema no-vcs-found-1f6854f~59~ubuntu17.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>LEDBoard 4x4 16bit</title>
@@ -339,6 +339,9 @@
     <comp ref="J6">
       <value>signal_out</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <fields>
+        <field name="reichelt">MPE 115-1-004</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X02_FEMALE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59685AEA</tstamp>
@@ -346,6 +349,9 @@
     <comp ref="J1">
       <value>signal_in</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <fields>
+        <field name="reichelt">MPE 115-1-004</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X02_MALE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>596860B5</tstamp>
@@ -353,6 +359,9 @@
     <comp ref="J2">
       <value>power</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm</footprint>
+      <fields>
+        <field name="reichelt">MPE 115-1-006</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X06"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>596880C8</tstamp>
@@ -569,14 +578,14 @@
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
-    <library logical="led_bgr">
-      <uri>/home/stefan/mydata/kicad/mylib/schematic_parts/led_bgr.lib</uri>
+    <library logical="mechanical">
+      <uri>/usr/share/kicad/library/mechanical.lib</uri>
     </library>
     <library logical="TI_TLC5971">
       <uri>/home/stefan/mydata/kicad/mylib/TI_TLC5971/TI_TLC5971.lib</uri>
     </library>
-    <library logical="mechanical">
-      <uri>/usr/share/kicad/library/mechanical.lib</uri>
+    <library logical="led_bgr">
+      <uri>/home/stefan/mydata/kicad/mylib/schematic_parts/led_bgr.lib</uri>
     </library>
   </libraries>
   <nets>
