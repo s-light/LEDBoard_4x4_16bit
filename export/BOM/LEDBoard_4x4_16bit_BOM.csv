@@ -1,0 +1,26 @@
+Reference, Quantity, Value, Footprint, Datasheet, Nichia part, reichelt, reichelt_url, YAGEO, Vishay, mouser, murata, texas instruments, murata2, mouser2, wegertseder, wegertseder_url, fischer_elektronik, fischer_elektronik_url
+C1 C2 C3 C4 ,4,"100nF","Capacitors_SMD:C_0603","",,"X7R-G0603 100N","https://www.reichelt.de/Vielschicht-SMD-G0603/X7R-G0603-100N/3/index.html?ACTION=3&GROUPID=3166&ARTICLE=31873&OFFSET=100&","CC0603KRX7R7BB104",,"81-GRM39X104K50D","GRM188R71H104KA93D",,,,,,,
+C5 ,1,"47uF 6.3V","Capacitors_SMD:C_0603","",,"X5R-G0603 47/6,3","https://www.reichelt.de/Vielschicht-SMD-G0603/X5R-G0603-47-6-3/3/index.html?ACTION=3&GROUPID=3166&ARTICLE=190489&OFFSET=100&",,,"81-GRM188R60J476ME5D","GRM188R60J476ME15D",,"ZRB18AR60J476ME01L","81-ZRB18AR60J476ME1L ",,,,
+D1.1 ,1,"LED_1.1","nichia:LED_NSSM032AT_wViaHeatSinkBig","","NSSM032A",,,,,,,,,,,,,
+D1.2 ,1,"LED_1.2","nichia:LED_NSSM032AT_wViaHeatSinkBig","","NSSM032A",,,,,,,,,,,,,
+D1.3 ,1,"LED_1.3","nichia:LED_NSSM032AT_wViaHeatSinkBig","","NSSM032A",,,,,,,,,,,,,
+D1.4 ,1,"LED_1.4","nichia:LED_NSSM032AT_wViaHeatSinkBig","","NSSM032A",,,,,,,,,,,,,
+D2.1 ,1,"LED_2.1","nichia:LED_NSSM032AT_wViaHeatSinkBig","","NSSM032A",,,,,,,,,,,,,
+D2.2 ,1,"LED_2.2","nichia:LED_NSSM032AT_wViaHeatSinkBig","","NSSM032A",,,,,,,,,,,,,
+D2.3 ,1,"LED_2.3","nichia:LED_NSSM032AT_wViaHeatSinkBig","","NSSM032A",,,,,,,,,,,,,
+D2.4 ,1,"LED_2.4","nichia:LED_NSSM032AT_wViaHeatSinkBig","","NSSM032A",,,,,,,,,,,,,
+D3.1 ,1,"LED_3.1","nichia:LED_NSSM032AT_wViaHeatSinkBig","","NSSM032A",,,,,,,,,,,,,
+D3.2 ,1,"LED_3.2","nichia:LED_NSSM032AT_wViaHeatSinkBig","","NSSM032A",,,,,,,,,,,,,
+D3.3 ,1,"LED_3.3","nichia:LED_NSSM032AT_wViaHeatSinkBig","","NSSM032A",,,,,,,,,,,,,
+D3.4 ,1,"LED_3.4","nichia:LED_NSSM032AT_wViaHeatSinkBig","","NSSM032A",,,,,,,,,,,,,
+D4.1 ,1,"LED_4.1","nichia:LED_NSSM032AT_wViaHeatSinkBig","","NSSM032A",,,,,,,,,,,,,
+D4.2 ,1,"LED_4.2","nichia:LED_NSSM032AT_wViaHeatSinkBig","","NSSM032A",,,,,,,,,,,,,
+D4.3 ,1,"LED_4.3","nichia:LED_NSSM032AT_wViaHeatSinkBig","","NSSM032A",,,,,,,,,,,,,
+D4.4 ,1,"LED_4.4","nichia:LED_NSSM032AT_wViaHeatSinkBig","","NSSM032A",,,,,,,,,,,,,
+HS1 ,1,"Heatsink","Oddities:Dummy_Empty","",,"V ICK PGA36X36","https://www.reichelt.de/Stiftkuehlkoerper/V-ICK-PGA36X36/3/index.html?ACTION=3&GROUPID=7773&ARTICLE=100978&OFFSET=100&",,,,,,,,,,"10037097","http://www.fischerelektronik.de/web_fischer/de_DE/K%C3%BChlk%C3%B6rper/B01/K%C3%BChlk%C3%B6rper%20f%C3%BCr%20PGA/PR/ICKPGA14x14x12_/$productCard/parameters/index.xhtml"
+J1 ,1,"signal_in","Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm",""
+J2 ,1,"power","Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm",""
+J6 ,1,"signal_out","Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm",""
+MK1 MK2 ,2,"Mounting_Hole","Mounting_Holes:MountingHole_3.2mm_M3_ISO7380_Pad","",,,,,,,,,,,"2588-406","https://www.wegertseder.com/ArticleDetails.aspx?AKNUM=2588",,
+R1 R2 R3 R4 ,4,"2k7 1%","Resistors_SMD:R_0603","",,"SMD-0603 2,7K","https://www.reichelt.de/SMD-0603-von-1-bis-910-kOhm/SMD-0603-2-7K/3/index.html?ACTION=3&GROUPID=7968&ARTICLE=89435&OFFSET=100&","RC0603FR-072K7L","CRCW06032K70FKEB","71-CRCW06032K70FKEB ",,,,,,,,
+U1 U2 U3 U4 ,4,"TLC5971RGER","Housings_DFN_QFN:Texas_S-PVQFN-N24_ThermalVias","http://www.ti.com/product/TLC5971/description",,,,,,"595-TLC5971RGER",,"TLC5971RGER",,,,,,
