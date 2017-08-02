@@ -1,6 +1,6 @@
 Reference, Quantity, Value, Footprint, Datasheet, Nichia part, reichelt, reichelt_url, YAGEO, Vishay, mouser, murata, texas instruments, murata2, mouser2, wegertseder, wegertseder_url, fischer_elektronik, fischer_elektronik_url
 C1 C2 C3 C4 ,4,100nF,Capacitors_SMD:C_0603,,,X7R-G0603 100N,https://www.reichelt.de/Vielschicht-SMD-G0603/X7R-G0603-100N/3/index.html?ACTION=3&GROUPID=3166&ARTICLE=31873&OFFSET=100&,CC0603KRX7R7BB104,,81-GRM39X104K50D,GRM188R71H104KA93D,,,,,,,
-C5 ,1,47uF 6.3V,Capacitors_SMD:C_0603,,,X5R-G0603 47/6,3,https://www.reichelt.de/Vielschicht-SMD-G0603/X5R-G0603-47-6-3/3/index.html?ACTION=3&GROUPID=3166&ARTICLE=190489&OFFSET=100&,,,81-GRM188R60J476ME5D,GRM188R60J476ME15D,,ZRB18AR60J476ME01L,81-ZRB18AR60J476ME1L ,,,,
+C5 ,1,47uF 6.3V,Capacitors_SMD:C_0603,,,"X5R-G0603 47/6,3",https://www.reichelt.de/Vielschicht-SMD-G0603/X5R-G0603-47-6-3/3/index.html?ACTION=3&GROUPID=3166&ARTICLE=190489&OFFSET=100&,,,81-GRM188R60J476ME5D,GRM188R60J476ME15D,,ZRB18AR60J476ME01L,81-ZRB18AR60J476ME1L ,,,,
 D1.1 ,1,LED_1.1,nichia:LED_NSSM032AT_wViaHeatSinkBig,,NSSM032A,,,,,,,,,,,,,
 D1.2 ,1,LED_1.2,nichia:LED_NSSM032AT_wViaHeatSinkBig,,NSSM032A,,,,,,,,,,,,,
 D1.3 ,1,LED_1.3,nichia:LED_NSSM032AT_wViaHeatSinkBig,,NSSM032A,,,,,,,,,,,,,
