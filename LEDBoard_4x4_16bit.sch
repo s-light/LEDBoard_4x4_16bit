@@ -40,8 +40,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "LEDBoard 4x4 16bit"
-Date "2017-07-13"
-Rev "1.0"
+Date "03.08.2017"
+Rev "2.0.0"
 Comp "s-light.eu"
 Comment1 "designed by Stefan Krüger"
 Comment2 "license: CC BY"
@@ -1190,9 +1190,9 @@ Text Label 1150 2600 2    60   ~ 0
 data_in
 Text Label 1150 2700 2    60   ~ 0
 clock_in
-Text Label 1300 7150 0    60   ~ 0
+Text Label 1500 7050 0    60   ~ 0
 data_in
-Text Label 1300 7350 0    60   ~ 0
+Text Label 1500 7150 0    60   ~ 0
 clock_in
 Text Label 7850 2700 0    60   ~ 0
 clock_1-2
@@ -1237,28 +1237,28 @@ F 3 "" H 4250 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02_FEMALE J6
+L CONN_01X03 J6
 U 1 1 59685AEA
-P 2350 7250
-F 0 "J6" H 2350 7500 50  0000 L CNN
-F 1 "signal_out" V 2550 7050 50  0000 L CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 2350 7350 50  0001 C CNN
-F 3 "" H 2350 7350 50  0001 C CNN
-F 4 "MPE 115-1-004" H 2350 7250 60  0001 C CNN "reichelt"
-	1    2350 7250
+P 2650 7150
+F 0 "J6" H 2600 7350 50  0000 L CNN
+F 1 "signal_out" V 2750 6950 50  0000 L CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 2650 7250 50  0001 C CNN
+F 3 "" H 2650 7250 50  0001 C CNN
+F 4 "MPE 115-1-003" H 2650 7150 60  0001 C CNN "reichelt"
+	1    2650 7150
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02_MALE J1
+L CONN_01X03 J1
 U 1 1 596860B5
-P 1000 7250
-F 0 "J1" H 950 7500 50  0000 C CNN
-F 1 "signal_in" V 800 7250 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 1000 7350 50  0001 C CNN
-F 3 "" H 1000 7350 50  0001 C CNN
-F 4 "MPE 115-1-004" H 1000 7250 60  0001 C CNN "reichelt"
-	1    1000 7250
-	1    0    0    -1  
+P 1300 7150
+F 0 "J1" H 1300 7350 50  0000 C CNN
+F 1 "signal_in" V 1400 7150 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 1300 7250 50  0001 C CNN
+F 3 "" H 1300 7250 50  0001 C CNN
+F 4 "MPE 115-1-003" H 1300 7150 60  0001 C CNN "reichelt"
+	1    1300 7150
+	-1   0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG047
@@ -1492,9 +1492,9 @@ Connection ~ 4350 7250
 Wire Wire Line
 	4150 7050 4350 7050
 Connection ~ 4350 7050
-Text Label 2250 7350 2    60   ~ 0
+Text Label 2450 7150 2    60   ~ 0
 clock_out
-Text Label 2250 7150 2    60   ~ 0
+Text Label 2450 7050 2    60   ~ 0
 data_out
 Text Label 7850 2600 0    60   ~ 0
 data_1-2
@@ -1508,24 +1508,30 @@ Text Label 6450 4600 2    60   ~ 0
 U4_sense
 Text Label 2550 5350 0    60   ~ 0
 data_2-3
-Wire Wire Line
-	1150 5350 650  5350
-Wire Wire Line
-	650  5350 650  3350
-Wire Wire Line
-	650  3350 8400 3350
-Wire Wire Line
-	8400 3350 8400 2600
-Wire Wire Line
-	8400 2600 7850 2600
-Wire Wire Line
-	5900 5350 6450 5350
-Wire Wire Line
-	5900 5600 5900 5350
-Wire Wire Line
-	3150 5600 5900 5600
-Wire Wire Line
-	3150 5350 3150 5600
-Wire Wire Line
-	2550 5350 3150 5350
+$Comp
+L GND #PWR047
+U 1 1 5982EC89
+P 2450 7250
+F 0 "#PWR047" H 2450 7000 50  0001 C CNN
+F 1 "GND" H 2455 7077 50  0000 C CNN
+F 2 "" H 2450 7250 50  0001 C CNN
+F 3 "" H 2450 7250 50  0001 C CNN
+	1    2450 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR048
+U 1 1 5982F02C
+P 1500 7250
+F 0 "#PWR048" H 1500 7000 50  0001 C CNN
+F 1 "GND" H 1505 7077 50  0000 C CNN
+F 2 "" H 1500 7250 50  0001 C CNN
+F 3 "" H 1500 7250 50  0001 C CNN
+	1    1500 7250
+	1    0    0    -1  
+$EndComp
+Text Label 6450 5350 2    60   ~ 0
+data_2-3
+Text Label 1150 5350 2    60   ~ 0
+data_1-2
 $EndSCHEMATC
