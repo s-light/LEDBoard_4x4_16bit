@@ -1,17 +1,19 @@
 <!--lint disable maximum-line-length-->
 <!--lint disable list-item-spacing-->
+<!--lint disable list-item-indent-->
 
 # LED-Board 4x4 16bit
 ![LED-Board front](./export/3d/LEDBoard_4x4_16bit_3d_rendering.png)
 
 a LED-Matrix Board that can be combined to bigger areas.  
 It uses the [TI TLC5971](http://www.ti.com/product/TLC5971?keyMatch=tlc5971&tisearch=Search-EN-Everything) ConstantCurrent LED-Driver Chip with 16bit dimming resolution.  
-The default LED-footprint is for [Nichia NSSM032A](http://www.nichia.co.jp/en/product/led_product_data.html?type=%27NSSM032A%27) RGB-LED
+The [original](https://github.com/s-light/LEDBoard_4x4_16bit/tree/Nichia_NSSM032A) LED-footprint was for [Nichia NSSM032A](http://www.nichia.co.jp/en/product/led_product_data.html?type=%27NSSM032A%27) RGB-LED. They are only available as full reel.
+so there is a [second branch](https://github.com/s-light/LEDBoard_4x4_16bit/tree/Nichia_NSSM124D) with the LED-Type changed to [Nichia NSSM124D](http://www.nichia.co.jp/en/product/led_product_data.html?type=%27NSSM124D%27) - these are [available as cut-tape from an distributor](http://www.leds.de/en/Ordinary-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html).
 
 ## Project-Status
-- received first Batch
+- received first Batch ([Release V1.0.0](https://github.com/s-light/LEDBoard_4x4_16bit/releases/tag/v1.0))
 - one PCB assembled and tested: working :sun_with_face:  
-  hade some problems with the reflow oven - not enough heat from the bottom as the oven only heats from the top.
+  had some problems with the re-flow oven - not enough heat from the bottom as the oven only heats from the top.
 - made some picture from the assembly process: [gallery](./doc/gallery.md)
 
 ### TODO
@@ -19,9 +21,6 @@ The default LED-footprint is for [Nichia NSSM032A](http://www.nichia.co.jp/en/pr
 - order screws at [Wegertseder](https://www.wegertseder.com/ArticleDetails.aspx?AKNUM=2588)
 - order Heat Sink with machining and Thermal Foil from [Fischer Elektronik](http://www.fischerelektronik.de/web_fischer/de_DE/K%C3%BChlk%C3%B6rper/B01/K%C3%BChlk%C3%B6rper%20f%C3%BCr%20PGA/PR/ICKPGA14x14x12_/$productCard/parameters/index.xhtml)
 - add some mounting layouts to [LEDBoard_Layouts](https://github.com/s-light/LEDBoard_Layouts)
-
-### open ideas
-- add second branch with other nichia led type
 
 ## Technical Information
 there are groups of 4 LEDs that are controlled by one TLC5971.  
