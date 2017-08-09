@@ -1,4 +1,4 @@
-update=Mi 09 Aug 2017 13:10:46 CEST
+update=Mi 09 Aug 2017 14:25:58 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -52,8 +52,6 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
-[general]
-version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -73,3 +71,5 @@ SolderMaskMinWidth=0.09999999999999999
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[general]
+version=1
