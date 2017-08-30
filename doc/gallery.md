@@ -8,6 +8,7 @@
 
 ## it works :-)
 ![test run yellow](./pictures/P1620119_small.jpg)
+![two pcbs chained](./pictures/P1620334_small.jpg)
 
 (hover over the picture)
 <style media="screen">
