@@ -1,4 +1,4 @@
-update=Mi 09 Aug 2017 14:25:58 CEST
+update=Mi 30 Aug 2017 23:58:25 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -42,16 +42,6 @@ LibName31=leds
 LibName32=led_bgr
 LibName33=/home/stefan/mydata/kicad/mylib/TI_TLC5971/TI_TLC5971
 LibName34=mechanical
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=export/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -71,5 +61,15 @@ SolderMaskMinWidth=0.09999999999999999
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=export/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [general]
 version=1
