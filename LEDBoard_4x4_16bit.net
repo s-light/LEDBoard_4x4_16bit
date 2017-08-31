@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/stefan/mydata/github/LEDBoard_4x4_16bit/LEDBoard_4x4_16bit.sch)
-    (date "Do 31 Aug 2017 19:53:44 CEST")
+    (date "Do 31 Aug 2017 20:52:18 CEST")
     (tool "Eeschema no-vcs-found-3ac87f6~59~ubuntu17.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -74,8 +74,8 @@
       (footprint nichia:LED_NSSM124_wViaHeatSinkBig)
       (fields
         (field (name "Nichia part") NSSM124D)
-        (field (name Lumitronix) x)
-        (field (name Lumitronix_url) xx))
+        (field (name Lumitronix) 30201)
+        (field (name Lumitronix_url) http://www.leds.de/Low-Mid-Power-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html))
       (libsource (lib led_bgr) (part LED_BGR_DieOnCathodeSide))
       (sheetpath (names /) (tstamps /))
       (tstamp 59675A66))

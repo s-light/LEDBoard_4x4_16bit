@@ -5,15 +5,18 @@
 # LED-Board 4x4 16bit
 ![LED-Board front](./export/3d/LEDBoard_4x4_16bit_3d_rendering.png)
 
-a LED-Matrix Board that can be combined to bigger areas.  
-It uses the [TI TLC5971](http://www.ti.com/product/TLC5971?keyMatch=tlc5971&tisearch=Search-EN-Everything) ConstantCurrent LED-Driver Chip with 16bit dimming resolution.  
+a LED-Matrix Board that can be combined seamlessly to bigger areas.  
+It uses the [TI TLC5971](http://www.ti.com/product/TLC5971?keyMatch=tlc5971&tisearch=Search-EN-Everything) Constant-Current LED-Driver Chip with 16bit dimming resolution.  
 The [original](https://github.com/s-light/LEDBoard_4x4_16bit/tree/Nichia_NSSM032A) LED-footprint was for [Nichia NSSM032A](http://www.nichia.co.jp/en/product/led_product_data.html?type=%27NSSM032A%27) RGB-LED. They are only available as full reel.
 so there is a [second branch](https://github.com/s-light/LEDBoard_4x4_16bit/tree/Nichia_NSSM124D) with the LED-Type changed to [Nichia NSSM124D](http://www.nichia.co.jp/en/product/led_product_data.html?type=%27NSSM124D%27) - these are [available as cut-tape from an distributor](http://www.leds.de/en/Ordinary-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html).
+latest addition is a [branch with TLC5971*PWP* driver chips](https://github.com/s-light/LEDBoard_4x4_16bit/tree/TLC5971PWP) - this is the same chip but in an HTSSOP-20 housing -
+that is easier to solder by hand. --> no hot air / reflow oven necessary, but recommend.
 
 ## Project-Status
 - received first Batch ([Release V1.0.0](https://github.com/s-light/LEDBoard_4x4_16bit/releases/tag/v1.0))
-- one PCB assembled and tested: working :sun_with_face:  
+- five PCBs assembled and tested: 2 fully working :sun_with_face:  (1 has a short; 2 working partly)
   had some problems with the re-flow oven - not enough heat from the bottom as the oven only heats from the top.
+  and a big bunch of solder-bridges on the QFN chips --> lots of rework (eventually this can be fixed with smaller stencil openings-> less solder)
 - made some picture from the assembly process: [gallery](./doc/gallery.md)
 
 ### TODO
@@ -24,14 +27,16 @@ so there is a [second branch](https://github.com/s-light/LEDBoard_4x4_16bit/tree
 
 ## Technical Information
 there are groups of 4 LEDs that are controlled by one TLC5971.  
-every controller chip has 12 ConstantCurrent outputs. so every LED is controllable individual.
+every controller chip has 12 Constant-Current outputs. so every LED is controllable individual.
 
-you need to create a mapping to linearize the order:
+you need to create a mapping to linearize the order:  
 **TODO: FILL IN MAPPING INFORMATION**
 
 ### HW
 - PCB size: 40x40x18mm
 - pixel-pitch: 10mm
+- 3.8V..5.5V
+- <= 1A (maximum)
 
 ### BOM
 there is the raw exported BOM at [export/BOM/LEDBoard_4x4_16bit_BOM.csv](export/BOM/LEDBoard_4x4_16bit_BOM.csv) and an modified LibreOffice Calc file with ordering and Price calculations at [doc/LEDBoard_4x4_16bit_PriceCalculation_Ordering](doc/LEDBoard_4x4_16bit_PriceCalculation_Ordering.csv) (link points to exported csv as preview)
@@ -39,14 +44,14 @@ there is the raw exported BOM at [export/BOM/LEDBoard_4x4_16bit_BOM.csv](export/
 ### controlling
 
 #### Micro Controller / Arduino
-there are some Arduino Libraries out there that can generate the correct protocoll.
-My Favorit is [ulrichstern/Tlc59711](https://github.com/ulrichstern/Tlc59711)
+there are some Arduino Libraries out there that can generate the correct protocol.
+My Favorite is [ulrichstern/Tlc59711](https://github.com/ulrichstern/Tlc59711)
 
 i have made a [simple arduino sketch](https://github.com/s-light/LEDBoard_4x4_16bit_HWTest) that uses the mentioned library to test the Boards during production.
 
 #### embedded linux boards
-Additionally you can use a embedded linux board with an SPI output to drive them.
-I have successuflly implemented the protocoll in my fork of OLA.
+Additionally you can use a embedded Linux board with an SPI output to drive them.
+I have successfully implemented the protocol in my fork of OLA.
 (TODO: Link and explain OLA setup)
 
 there are also other python libraries out there.
@@ -62,7 +67,7 @@ for the control-signal there are an input and output 3pin 2,54mm connector:
 1. GND
 
 for the power there are 3x2pin 2,54mm connector positions.
-so you could daisychange power also - but be aware the pcb-traces can handle an absolute maximum of 3,5A. So i would recomend only 1 or maximum 2 daisychangend boards.
+so you could daisy-chain power also - but be aware the pcb-traces can handle an absolute maximum of 3,5A. So i would recommend only 1 or maximum 2 daisy-chained boards.
 
 ## KiCad Version
 ```text
