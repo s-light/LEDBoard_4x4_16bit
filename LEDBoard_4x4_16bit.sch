@@ -40,8 +40,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "LEDBoard 4x4 16bit"
-Date "08.08.2017"
-Rev "2.1.0"
+Date "31.08.2017"
+Rev "3.0.0"
 Comp "s-light.eu"
 Comment1 "designed by Stefan Krüger"
 Comment2 "license: CC BY"
@@ -54,11 +54,11 @@ U 1 1 59673ECD
 P 3950 1550
 F 0 "D1.1" H 3950 2047 50  0000 C CNN
 F 1 "LED_1.1" H 3950 1956 50  0000 C CNN
-F 2 "nichia:LED_NSSM124_wViaHeatSinkBig_LayoutCompatibleWithNSSM032AT" H 3950 1500 50  0001 C CNN
+F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 3950 1500 50  0001 C CNN
 F 3 "" H 3950 1500 50  0001 C CNN
 F 4 "NSSM124D" H 3950 1550 60  0001 C CNN "Nichia part"
 	1    3950 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR01
@@ -69,7 +69,7 @@ F 1 "GND" H 1905 2877 50  0000 C CNN
 F 2 "" H 1900 3050 50  0001 C CNN
 F 3 "" H 1900 3050 50  0001 C CNN
 	1    1900 3050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R R1
@@ -85,7 +85,7 @@ F 6 "RC0603FR-072K7L" H 1150 2000 60  0001 C CNN "YAGEO"
 F 7 "CRCW06032K70FKEB" H 1150 2000 60  0001 C CNN "Vishay"
 F 8 "71-CRCW06032K70FKEB " H 0   0   60  0001 C CNN "mouser"
 	1    1150 2000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C1
@@ -101,7 +101,7 @@ F 6 "CC0603KRX7R7BB104" H 900 1400 60  0001 C CNN "YAGEO"
 F 7 "81-GRM39X104K50D" H 0   0   60  0001 C CNN "mouser"
 F 8 "GRM188R71H104KA93D" H 0   0   60  0001 C CNN "murata"
 	1    900  1400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L TLC5971PWPR U1
@@ -114,7 +114,7 @@ F 3 "http://www.ti.com/product/TLC5971/description" H 1800 2000 60  0001 C CNN
 F 4 "595-TLC5971PWPR" H 1850 2000 60  0001 C CNN "mouser"
 F 5 "TLC5971PWPR" H 1850 2000 60  0001 C CNN "texas instruments"
 	1    1850 2000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED_BGR_DieOnCathodeSide D1.2
@@ -122,11 +122,11 @@ U 1 1 596757FD
 P 3950 2450
 F 0 "D1.2" H 3950 2947 50  0000 C CNN
 F 1 "LED_1.2" H 3950 2856 50  0000 C CNN
-F 2 "nichia:LED_NSSM124_wViaHeatSinkBig_LayoutCompatibleWithNSSM032AT" H 3950 2400 50  0001 C CNN
+F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 3950 2400 50  0001 C CNN
 F 3 "" H 3950 2400 50  0001 C CNN
 F 4 "NSSM124D" H 3950 2450 60  0001 C CNN "Nichia part"
 	1    3950 2450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED_BGR_DieOnCathodeSide D2.1
@@ -134,11 +134,11 @@ U 1 1 59675A66
 P 5150 1550
 F 0 "D2.1" H 5150 2047 50  0000 C CNN
 F 1 "LED_2.1" H 5150 1956 50  0000 C CNN
-F 2 "nichia:LED_NSSM124_wViaHeatSinkBig_LayoutCompatibleWithNSSM032AT" H 5150 1500 50  0001 C CNN
+F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 5150 1500 50  0001 C CNN
 F 3 "" H 5150 1500 50  0001 C CNN
 F 4 "NSSM124D" H 5150 1550 60  0001 C CNN "Nichia part"
 	1    5150 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED_BGR_DieOnCathodeSide D2.2
@@ -146,11 +146,11 @@ U 1 1 59675A6E
 P 5150 2450
 F 0 "D2.2" H 5150 2947 50  0000 C CNN
 F 1 "LED_2.2" H 5150 2856 50  0000 C CNN
-F 2 "nichia:LED_NSSM124_wViaHeatSinkBig_LayoutCompatibleWithNSSM032AT" H 5150 2400 50  0001 C CNN
+F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 5150 2400 50  0001 C CNN
 F 3 "" H 5150 2400 50  0001 C CNN
 F 4 "NSSM124D" H 5150 2450 60  0001 C CNN "Nichia part"
 	1    5150 2450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 3750 1750 2    60   ~ 0
 LED_1.1_R
@@ -185,7 +185,7 @@ F 1 "GND" H 905 1377 50  0000 C CNN
 F 2 "" H 900 1550 50  0001 C CNN
 F 3 "" H 900 1550 50  0001 C CNN
 	1    900  1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR03
@@ -196,7 +196,7 @@ F 1 "GND" H 1805 2877 50  0000 C CNN
 F 2 "" H 1800 3050 50  0001 C CNN
 F 3 "" H 1800 3050 50  0001 C CNN
 	1    1800 3050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR04
@@ -207,7 +207,7 @@ F 1 "GND" H 1155 1977 50  0000 C CNN
 F 2 "" H 1150 2150 50  0001 C CNN
 F 3 "" H 1150 2150 50  0001 C CNN
 	1    1150 2150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED_BGR_DieOnCathodeSide D3.1
@@ -215,11 +215,11 @@ U 1 1 59677C32
 P 9250 1550
 F 0 "D3.1" H 9250 2047 50  0000 C CNN
 F 1 "LED_3.1" H 9250 1956 50  0000 C CNN
-F 2 "nichia:LED_NSSM124_wViaHeatSinkBig_LayoutCompatibleWithNSSM032AT" H 9250 1500 50  0001 C CNN
+F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 9250 1500 50  0001 C CNN
 F 3 "" H 9250 1500 50  0001 C CNN
 F 4 "NSSM124D" H 9250 1550 60  0001 C CNN "Nichia part"
 	1    9250 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR05
@@ -230,7 +230,7 @@ F 1 "GND" H 7205 2877 50  0000 C CNN
 F 2 "" H 7200 3050 50  0001 C CNN
 F 3 "" H 7200 3050 50  0001 C CNN
 	1    7200 3050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R R2
@@ -246,7 +246,7 @@ F 6 "RC0603FR-072K7L" H 1150 2000 60  0001 C CNN "YAGEO"
 F 7 "CRCW06032K70FKEB" H 0   0   60  0001 C CNN "Vishay"
 F 8 "71-CRCW06032K70FKEB " H 0   0   60  0001 C CNN "mouser"
 	1    6450 2000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C2
@@ -262,7 +262,7 @@ F 6 "CC0603KRX7R7BB104" H 0   0   60  0001 C CNN "YAGEO"
 F 7 "81-GRM39X104K50D" H 0   0   60  0001 C CNN "mouser"
 F 8 "GRM188R71H104KA93D" H 0   0   60  0001 C CNN "murata"
 	1    6200 1400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED_BGR_DieOnCathodeSide D3.2
@@ -270,11 +270,11 @@ U 1 1 59677C57
 P 9250 2450
 F 0 "D3.2" H 9250 2947 50  0000 C CNN
 F 1 "LED_3.2" H 9250 2856 50  0000 C CNN
-F 2 "nichia:LED_NSSM124_wViaHeatSinkBig_LayoutCompatibleWithNSSM032AT" H 9250 2400 50  0001 C CNN
+F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 9250 2400 50  0001 C CNN
 F 3 "" H 9250 2400 50  0001 C CNN
 F 4 "NSSM124D" H 9250 2450 60  0001 C CNN "Nichia part"
 	1    9250 2450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED_BGR_DieOnCathodeSide D4.1
@@ -282,11 +282,11 @@ U 1 1 59677C5E
 P 10450 1550
 F 0 "D4.1" H 10450 2047 50  0000 C CNN
 F 1 "LED_4.1" H 10450 1956 50  0000 C CNN
-F 2 "nichia:LED_NSSM124_wViaHeatSinkBig_LayoutCompatibleWithNSSM032AT" H 10450 1500 50  0001 C CNN
+F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 10450 1500 50  0001 C CNN
 F 3 "" H 10450 1500 50  0001 C CNN
 F 4 "NSSM124D" H 10450 1550 60  0001 C CNN "Nichia part"
 	1    10450 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED_BGR_DieOnCathodeSide D4.2
@@ -294,11 +294,11 @@ U 1 1 59677C65
 P 10450 2450
 F 0 "D4.2" H 10450 2947 50  0000 C CNN
 F 1 "LED_4.2" H 10450 2856 50  0000 C CNN
-F 2 "nichia:LED_NSSM124_wViaHeatSinkBig_LayoutCompatibleWithNSSM032AT" H 10450 2400 50  0001 C CNN
+F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 10450 2400 50  0001 C CNN
 F 3 "" H 10450 2400 50  0001 C CNN
 F 4 "NSSM124D" H 10450 2450 60  0001 C CNN "Nichia part"
 	1    10450 2450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 9050 1750 2    60   ~ 0
 LED_3.1_R
@@ -333,7 +333,7 @@ F 1 "GND" H 6205 1377 50  0000 C CNN
 F 2 "" H 6200 1550 50  0001 C CNN
 F 3 "" H 6200 1550 50  0001 C CNN
 	1    6200 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR07
@@ -344,7 +344,7 @@ F 1 "GND" H 7105 2877 50  0000 C CNN
 F 2 "" H 7100 3050 50  0001 C CNN
 F 3 "" H 7100 3050 50  0001 C CNN
 	1    7100 3050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR08
@@ -355,7 +355,7 @@ F 1 "GND" H 6455 1977 50  0000 C CNN
 F 2 "" H 6450 2150 50  0001 C CNN
 F 3 "" H 6450 2150 50  0001 C CNN
 	1    6450 2150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED_BGR_DieOnCathodeSide D1.3
@@ -363,11 +363,11 @@ U 1 1 59678BE4
 P 3950 4300
 F 0 "D1.3" H 3950 4797 50  0000 C CNN
 F 1 "LED_1.3" H 3950 4706 50  0000 C CNN
-F 2 "nichia:LED_NSSM124_wViaHeatSinkBig_LayoutCompatibleWithNSSM032AT" H 3950 4250 50  0001 C CNN
+F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 3950 4250 50  0001 C CNN
 F 3 "" H 3950 4250 50  0001 C CNN
 F 4 "NSSM124D" H 3950 4300 60  0001 C CNN "Nichia part"
 	1    3950 4300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR09
@@ -378,7 +378,7 @@ F 1 "GND" H 1905 5627 50  0000 C CNN
 F 2 "" H 1900 5800 50  0001 C CNN
 F 3 "" H 1900 5800 50  0001 C CNN
 	1    1900 5800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R R3
@@ -394,7 +394,7 @@ F 6 "RC0603FR-072K7L" H 1150 2000 60  0001 C CNN "YAGEO"
 F 7 "CRCW06032K70FKEB" H 0   0   60  0001 C CNN "Vishay"
 F 8 "71-CRCW06032K70FKEB " H 0   0   60  0001 C CNN "mouser"
 	1    1150 4750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C3
@@ -410,20 +410,20 @@ F 6 "CC0603KRX7R7BB104" H 0   0   60  0001 C CNN "YAGEO"
 F 7 "81-GRM39X104K50D" H 0   0   60  0001 C CNN "mouser"
 F 8 "GRM188R71H104KA93D" H 0   0   60  0001 C CNN "murata"
 	1    900  4150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L TLC5971RGER U3
+L TLC5971PWPR U3
 U 1 1 59678C02
 P 1850 4750
 F 0 "U3" H 1950 5750 60  0000 C CNN
-F 1 "TLC5971RGER" H 2150 5650 50  0000 C CNN
-F 2 "Housings_DFN_QFN:Texas_S-PVQFN-N24_ThermalVias" H 1850 4300 20  0000 C CNN
+F 1 "TLC5971PWPR" H 2150 5650 50  0000 C CNN
+F 2 "Housings_SSOP:HTSSOP-20-1EP_4.4x6.5mm_Pitch0.65mm_ThermalVias_TI_R-PDSO-G20" H 1850 4300 20  0000 C CNN
 F 3 "" H 1800 4750 60  0000 C CNN
-F 4 "595-TLC5971RGER" H 0   0   60  0001 C CNN "mouser"
-F 5 "TLC5971RGER" H 0   0   60  0001 C CNN "texas instruments"
+F 4 "595-TLC5971PWPR" H 0   0   60  0001 C CNN "mouser"
+F 5 "TLC5971PWPR" H 0   0   60  0001 C CNN "texas instruments"
 	1    1850 4750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED_BGR_DieOnCathodeSide D1.4
@@ -431,11 +431,11 @@ U 1 1 59678C09
 P 3950 5200
 F 0 "D1.4" H 3950 5697 50  0000 C CNN
 F 1 "LED_1.4" H 3950 5606 50  0000 C CNN
-F 2 "nichia:LED_NSSM124_wViaHeatSinkBig_LayoutCompatibleWithNSSM032AT" H 3950 5150 50  0001 C CNN
+F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 3950 5150 50  0001 C CNN
 F 3 "" H 3950 5150 50  0001 C CNN
 F 4 "NSSM124D" H 3950 5200 60  0001 C CNN "Nichia part"
 	1    3950 5200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED_BGR_DieOnCathodeSide D2.3
@@ -443,11 +443,11 @@ U 1 1 59678C10
 P 5150 4300
 F 0 "D2.3" H 5150 4797 50  0000 C CNN
 F 1 "LED_2.3" H 5150 4706 50  0000 C CNN
-F 2 "nichia:LED_NSSM124_wViaHeatSinkBig_LayoutCompatibleWithNSSM032AT" H 5150 4250 50  0001 C CNN
+F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 5150 4250 50  0001 C CNN
 F 3 "" H 5150 4250 50  0001 C CNN
 F 4 "NSSM124D" H 5150 4300 60  0001 C CNN "Nichia part"
 	1    5150 4300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED_BGR_DieOnCathodeSide D2.4
@@ -455,11 +455,11 @@ U 1 1 59678C17
 P 5150 5200
 F 0 "D2.4" H 5150 5697 50  0000 C CNN
 F 1 "LED_2.4" H 5150 5606 50  0000 C CNN
-F 2 "nichia:LED_NSSM124_wViaHeatSinkBig_LayoutCompatibleWithNSSM032AT" H 5150 5150 50  0001 C CNN
+F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 5150 5150 50  0001 C CNN
 F 3 "" H 5150 5150 50  0001 C CNN
 F 4 "NSSM124D" H 5150 5200 60  0001 C CNN "Nichia part"
 	1    5150 5200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 3750 4500 2    60   ~ 0
 LED_1.3_R
@@ -494,7 +494,7 @@ F 1 "GND" H 905 4127 50  0000 C CNN
 F 2 "" H 900 4300 50  0001 C CNN
 F 3 "" H 900 4300 50  0001 C CNN
 	1    900  4300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR011
@@ -505,7 +505,7 @@ F 1 "GND" H 1805 5627 50  0000 C CNN
 F 2 "" H 1800 5800 50  0001 C CNN
 F 3 "" H 1800 5800 50  0001 C CNN
 	1    1800 5800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR012
@@ -516,7 +516,7 @@ F 1 "GND" H 1155 4727 50  0000 C CNN
 F 2 "" H 1150 4900 50  0001 C CNN
 F 3 "" H 1150 4900 50  0001 C CNN
 	1    1150 4900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED_BGR_DieOnCathodeSide D3.3
@@ -524,11 +524,11 @@ U 1 1 59678C48
 P 9250 4300
 F 0 "D3.3" H 9250 4797 50  0000 C CNN
 F 1 "LED_3.3" H 9250 4706 50  0000 C CNN
-F 2 "nichia:LED_NSSM124_wViaHeatSinkBig_LayoutCompatibleWithNSSM032AT" H 9250 4250 50  0001 C CNN
+F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 9250 4250 50  0001 C CNN
 F 3 "" H 9250 4250 50  0001 C CNN
 F 4 "NSSM124D" H 9250 4300 60  0001 C CNN "Nichia part"
 	1    9250 4300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR013
@@ -539,7 +539,7 @@ F 1 "GND" H 7205 5627 50  0000 C CNN
 F 2 "" H 7200 5800 50  0001 C CNN
 F 3 "" H 7200 5800 50  0001 C CNN
 	1    7200 5800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R R4
@@ -555,7 +555,7 @@ F 6 "RC0603FR-072K7L" H 1150 2000 60  0001 C CNN "YAGEO"
 F 7 "CRCW06032K70FKEB" H 0   0   60  0001 C CNN "Vishay"
 F 8 "71-CRCW06032K70FKEB " H 0   0   60  0001 C CNN "mouser"
 	1    6450 4750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C4
@@ -571,20 +571,20 @@ F 6 "CC0603KRX7R7BB104" H 0   0   60  0001 C CNN "YAGEO"
 F 7 "81-GRM39X104K50D" H 0   0   60  0001 C CNN "mouser"
 F 8 "GRM188R71H104KA93D" H 0   0   60  0001 C CNN "murata"
 	1    6200 4150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L TLC5971RGER U4
+L TLC5971PWPR U4
 U 1 1 59678C66
 P 7150 4750
 F 0 "U4" H 7250 5750 60  0000 C CNN
-F 1 "TLC5971RGER" H 7450 5650 50  0000 C CNN
-F 2 "Housings_DFN_QFN:Texas_S-PVQFN-N24_ThermalVias" H 7150 4300 20  0000 C CNN
+F 1 "TLC5971PWPR" H 7450 5650 50  0000 C CNN
+F 2 "Housings_SSOP:HTSSOP-20-1EP_4.4x6.5mm_Pitch0.65mm_ThermalVias_TI_R-PDSO-G20" H 7150 4300 20  0000 C CNN
 F 3 "" H 7100 4750 60  0000 C CNN
-F 4 "595-TLC5971RGER" H 0   0   60  0001 C CNN "mouser"
-F 5 "TLC5971RGER" H 0   0   60  0001 C CNN "texas instruments"
+F 4 "595-TLC5971PWPR" H 0   0   60  0001 C CNN "mouser"
+F 5 "TLC5971PWPR" H 0   0   60  0001 C CNN "texas instruments"
 	1    7150 4750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED_BGR_DieOnCathodeSide D3.4
@@ -592,11 +592,11 @@ U 1 1 59678C6D
 P 9250 5200
 F 0 "D3.4" H 9250 5697 50  0000 C CNN
 F 1 "LED_3.4" H 9250 5606 50  0000 C CNN
-F 2 "nichia:LED_NSSM124_wViaHeatSinkBig_LayoutCompatibleWithNSSM032AT" H 9250 5150 50  0001 C CNN
+F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 9250 5150 50  0001 C CNN
 F 3 "" H 9250 5150 50  0001 C CNN
 F 4 "NSSM124D" H 9250 5200 60  0001 C CNN "Nichia part"
 	1    9250 5200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED_BGR_DieOnCathodeSide D4.3
@@ -604,11 +604,11 @@ U 1 1 59678C74
 P 10450 4300
 F 0 "D4.3" H 10450 4797 50  0000 C CNN
 F 1 "LED_4.3" H 10450 4706 50  0000 C CNN
-F 2 "nichia:LED_NSSM124_wViaHeatSinkBig_LayoutCompatibleWithNSSM032AT" H 10450 4250 50  0001 C CNN
+F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 10450 4250 50  0001 C CNN
 F 3 "" H 10450 4250 50  0001 C CNN
 F 4 "NSSM124D" H 10450 4300 60  0001 C CNN "Nichia part"
 	1    10450 4300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED_BGR_DieOnCathodeSide D4.4
@@ -616,11 +616,11 @@ U 1 1 59678C7B
 P 10450 5200
 F 0 "D4.4" H 10450 5697 50  0000 C CNN
 F 1 "LED_4.4" H 10450 5606 50  0000 C CNN
-F 2 "nichia:LED_NSSM124_wViaHeatSinkBig_LayoutCompatibleWithNSSM032AT" H 10450 5150 50  0001 C CNN
+F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 10450 5150 50  0001 C CNN
 F 3 "" H 10450 5150 50  0001 C CNN
 F 4 "NSSM124D" H 10450 5200 60  0001 C CNN "Nichia part"
 	1    10450 5200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 9050 4500 2    60   ~ 0
 LED_3.3_R
@@ -655,7 +655,7 @@ F 1 "GND" H 6205 4127 50  0000 C CNN
 F 2 "" H 6200 4300 50  0001 C CNN
 F 3 "" H 6200 4300 50  0001 C CNN
 	1    6200 4300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR015
@@ -666,7 +666,7 @@ F 1 "GND" H 7105 5627 50  0000 C CNN
 F 2 "" H 7100 5800 50  0001 C CNN
 F 3 "" H 7100 5800 50  0001 C CNN
 	1    7100 5800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR016
@@ -677,7 +677,7 @@ F 1 "GND" H 6455 4727 50  0000 C CNN
 F 2 "" H 6450 4900 50  0001 C CNN
 F 3 "" H 6450 4900 50  0001 C CNN
 	1    6450 4900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4250 1250 4250 1750
@@ -848,7 +848,7 @@ F 1 "VCC" H 917 1423 50  0000 C CNN
 F 2 "" H 900 1250 50  0001 C CNN
 F 3 "" H 900 1250 50  0001 C CNN
 	1    900  1250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR018
@@ -859,7 +859,7 @@ F 1 "VCC" H 1167 1423 50  0000 C CNN
 F 2 "" H 1150 1250 50  0001 C CNN
 F 3 "" H 1150 1250 50  0001 C CNN
 	1    1150 1250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR019
@@ -869,8 +869,8 @@ F 0 "#PWR019" H 1850 800 50  0001 C CNN
 F 1 "VCC" H 1867 1123 50  0000 C CNN
 F 2 "" H 1850 950 50  0001 C CNN
 F 3 "" H 1850 950 50  0001 C CNN
-	1    1850 950 
-	1    0    0    -1  
+	1    1850 950
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR020
@@ -881,7 +881,7 @@ F 1 "VCC" H 4267 1423 50  0000 C CNN
 F 2 "" H 4250 1250 50  0001 C CNN
 F 3 "" H 4250 1250 50  0001 C CNN
 	1    4250 1250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR021
@@ -892,7 +892,7 @@ F 1 "VCC" H 5467 1423 50  0000 C CNN
 F 2 "" H 5450 1250 50  0001 C CNN
 F 3 "" H 5450 1250 50  0001 C CNN
 	1    5450 1250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR022
@@ -903,7 +903,7 @@ F 1 "VCC" H 5467 2323 50  0000 C CNN
 F 2 "" H 5450 2150 50  0001 C CNN
 F 3 "" H 5450 2150 50  0001 C CNN
 	1    5450 2150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR023
@@ -914,20 +914,20 @@ F 1 "VCC" H 4267 2323 50  0000 C CNN
 F 2 "" H 4250 2150 50  0001 C CNN
 F 3 "" H 4250 2150 50  0001 C CNN
 	1    4250 2150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L TLC5971RGER U2
+L TLC5971PWPR U2
 U 1 1 59677C50
 P 7150 2000
 F 0 "U2" H 7250 3000 60  0000 C CNN
-F 1 "TLC5971RGER" H 7450 2900 50  0000 C CNN
-F 2 "Housings_DFN_QFN:Texas_S-PVQFN-N24_ThermalVias" H 7150 1550 20  0000 C CNN
+F 1 "TLC5971PWPR" H 7450 2900 50  0000 C CNN
+F 2 "Housings_SSOP:HTSSOP-20-1EP_4.4x6.5mm_Pitch0.65mm_ThermalVias_TI_R-PDSO-G20" H 7150 1550 20  0000 C CNN
 F 3 "" H 7100 2000 60  0000 C CNN
-F 4 "595-TLC5971RGER" H 0   0   60  0001 C CNN "mouser"
-F 5 "TLC5971RGER" H 0   0   60  0001 C CNN "texas instruments"
+F 4 "595-TLC5971PWPR" H 0   0   60  0001 C CNN "mouser"
+F 5 "TLC5971PWPR" H 0   0   60  0001 C CNN "texas instruments"
 	1    7150 2000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR024
@@ -937,8 +937,8 @@ F 0 "#PWR024" H 7150 800 50  0001 C CNN
 F 1 "VCC" H 7167 1123 50  0000 C CNN
 F 2 "" H 7150 950 50  0001 C CNN
 F 3 "" H 7150 950 50  0001 C CNN
-	1    7150 950 
-	1    0    0    -1  
+	1    7150 950
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR025
@@ -949,7 +949,7 @@ F 1 "VCC" H 6467 1423 50  0000 C CNN
 F 2 "" H 6450 1250 50  0001 C CNN
 F 3 "" H 6450 1250 50  0001 C CNN
 	1    6450 1250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR026
@@ -960,7 +960,7 @@ F 1 "VCC" H 6217 1423 50  0000 C CNN
 F 2 "" H 6200 1250 50  0001 C CNN
 F 3 "" H 6200 1250 50  0001 C CNN
 	1    6200 1250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR027
@@ -971,7 +971,7 @@ F 1 "VCC" H 9567 1423 50  0000 C CNN
 F 2 "" H 9550 1250 50  0001 C CNN
 F 3 "" H 9550 1250 50  0001 C CNN
 	1    9550 1250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR028
@@ -982,7 +982,7 @@ F 1 "VCC" H 10767 1423 50  0000 C CNN
 F 2 "" H 10750 1250 50  0001 C CNN
 F 3 "" H 10750 1250 50  0001 C CNN
 	1    10750 1250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR029
@@ -993,7 +993,7 @@ F 1 "VCC" H 10767 2323 50  0000 C CNN
 F 2 "" H 10750 2150 50  0001 C CNN
 F 3 "" H 10750 2150 50  0001 C CNN
 	1    10750 2150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR030
@@ -1004,7 +1004,7 @@ F 1 "VCC" H 9567 2323 50  0000 C CNN
 F 2 "" H 9550 2150 50  0001 C CNN
 F 3 "" H 9550 2150 50  0001 C CNN
 	1    9550 2150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR031
@@ -1015,7 +1015,7 @@ F 1 "VCC" H 10767 4173 50  0000 C CNN
 F 2 "" H 10750 4000 50  0001 C CNN
 F 3 "" H 10750 4000 50  0001 C CNN
 	1    10750 4000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR032
@@ -1026,7 +1026,7 @@ F 1 "VCC" H 10767 5073 50  0000 C CNN
 F 2 "" H 10750 4900 50  0001 C CNN
 F 3 "" H 10750 4900 50  0001 C CNN
 	1    10750 4900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR033
@@ -1037,7 +1037,7 @@ F 1 "VCC" H 9567 5073 50  0000 C CNN
 F 2 "" H 9550 4900 50  0001 C CNN
 F 3 "" H 9550 4900 50  0001 C CNN
 	1    9550 4900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR034
@@ -1048,7 +1048,7 @@ F 1 "VCC" H 9567 4173 50  0000 C CNN
 F 2 "" H 9550 4000 50  0001 C CNN
 F 3 "" H 9550 4000 50  0001 C CNN
 	1    9550 4000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR035
@@ -1059,7 +1059,7 @@ F 1 "VCC" H 7167 3873 50  0000 C CNN
 F 2 "" H 7150 3700 50  0001 C CNN
 F 3 "" H 7150 3700 50  0001 C CNN
 	1    7150 3700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR036
@@ -1070,7 +1070,7 @@ F 1 "VCC" H 5467 4173 50  0000 C CNN
 F 2 "" H 5450 4000 50  0001 C CNN
 F 3 "" H 5450 4000 50  0001 C CNN
 	1    5450 4000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR037
@@ -1081,7 +1081,7 @@ F 1 "VCC" H 6217 4173 50  0000 C CNN
 F 2 "" H 6200 4000 50  0001 C CNN
 F 3 "" H 6200 4000 50  0001 C CNN
 	1    6200 4000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR038
@@ -1092,7 +1092,7 @@ F 1 "VCC" H 6467 4173 50  0000 C CNN
 F 2 "" H 6450 4000 50  0001 C CNN
 F 3 "" H 6450 4000 50  0001 C CNN
 	1    6450 4000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR039
@@ -1103,7 +1103,7 @@ F 1 "VCC" H 4267 4173 50  0000 C CNN
 F 2 "" H 4250 4000 50  0001 C CNN
 F 3 "" H 4250 4000 50  0001 C CNN
 	1    4250 4000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR040
@@ -1114,7 +1114,7 @@ F 1 "VCC" H 5467 5073 50  0000 C CNN
 F 2 "" H 5450 4900 50  0001 C CNN
 F 3 "" H 5450 4900 50  0001 C CNN
 	1    5450 4900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR041
@@ -1125,7 +1125,7 @@ F 1 "VCC" H 4267 5073 50  0000 C CNN
 F 2 "" H 4250 4900 50  0001 C CNN
 F 3 "" H 4250 4900 50  0001 C CNN
 	1    4250 4900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR042
@@ -1136,7 +1136,7 @@ F 1 "VCC" H 917 4173 50  0000 C CNN
 F 2 "" H 900 4000 50  0001 C CNN
 F 3 "" H 900 4000 50  0001 C CNN
 	1    900  4000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR043
@@ -1147,7 +1147,7 @@ F 1 "VCC" H 1167 4173 50  0000 C CNN
 F 2 "" H 1150 4000 50  0001 C CNN
 F 3 "" H 1150 4000 50  0001 C CNN
 	1    1150 4000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR044
@@ -1158,7 +1158,7 @@ F 1 "VCC" H 1867 3873 50  0000 C CNN
 F 2 "" H 1850 3700 50  0001 C CNN
 F 3 "" H 1850 3700 50  0001 C CNN
 	1    1850 3700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Notes 750  6550 0    197  ~ 0
 VCC: 3.8V..5.5V
@@ -1223,7 +1223,7 @@ F 1 "GND" H 4355 7127 50  0000 C CNN
 F 2 "" H 4350 7300 50  0001 C CNN
 F 3 "" H 4350 7300 50  0001 C CNN
 	1    4350 7300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR046
@@ -1234,7 +1234,7 @@ F 1 "VCC" H 4267 6873 50  0000 C CNN
 F 2 "" H 4250 6700 50  0001 C CNN
 F 3 "" H 4250 6700 50  0001 C CNN
 	1    4250 6700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L CONN_01X03 J6
@@ -1246,7 +1246,7 @@ F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 2650 7250 50  0001 
 F 3 "" H 2650 7250 50  0001 C CNN
 F 4 "MPE 115-1-003" H 2650 7150 60  0001 C CNN "reichelt"
 	1    2650 7150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L CONN_01X03 J1
@@ -1258,7 +1258,7 @@ F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 1300 7250 50  0001 
 F 3 "" H 1300 7250 50  0001 C CNN
 F 4 "MPE 115-1-003" H 1300 7150 60  0001 C CNN "reichelt"
 	1    1300 7150
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L PWR_FLAG #FLG047
@@ -1269,7 +1269,7 @@ F 1 "PWR_FLAG" H 4650 6874 50  0000 C CNN
 F 2 "" H 4650 6700 50  0001 C CNN
 F 3 "" H 4650 6700 50  0001 C CNN
 	1    4650 6700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L CONN_01X06 J2
@@ -1281,7 +1281,7 @@ F 2 "Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm" H 3950 7000 50  0001 
 F 3 "" H 3950 7000 50  0001 C CNN
 F 4 "MPE 115-1-006" H 3950 7000 60  0001 C CNN "reichelt"
 	1    3950 7000
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L PWR_FLAG #FLG048
@@ -1292,7 +1292,7 @@ F 1 "PWR_FLAG" H 4650 7473 50  0000 C CNN
 F 2 "" H 4650 7300 50  0001 C CNN
 F 3 "" H 4650 7300 50  0001 C CNN
 	1    4650 7300
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Text Label 7850 1250 0    60   ~ 0
 LED_3.1_R
@@ -1385,7 +1385,7 @@ F 7 "ZRB18AR60J476ME01L" H 0   0   60  0001 C CNN "murata2"
 F 8 "81-GRM188R60J476ME5D" H 6050 7150 60  0001 C CNN "mouser"
 F 9 "81-ZRB18AR60J476ME1L " H 6050 7150 60  0001 C CNN "mouser2"
 	1    6050 7150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR049
@@ -1396,7 +1396,7 @@ F 1 "GND" H 6055 7127 50  0000 C CNN
 F 2 "" H 6050 7300 50  0001 C CNN
 F 3 "" H 6050 7300 50  0001 C CNN
 	1    6050 7300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR050
@@ -1407,7 +1407,7 @@ F 1 "VCC" H 6067 7173 50  0000 C CNN
 F 2 "" H 6050 7000 50  0001 C CNN
 F 3 "" H 6050 7000 50  0001 C CNN
 	1    6050 7000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Mounting_Hole_PAD MK1
@@ -1420,7 +1420,7 @@ F 3 "" H 3950 6000 50  0001 C CNN
 F 4 "2588-406" H 3950 6000 60  0001 C CNN "wegertseder"
 F 5 "https://www.wegertseder.com/ArticleDetails.aspx?AKNUM=2588" H 3950 6000 60  0001 C CNN "wegertseder_url"
 	1    3950 6000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR051
@@ -1431,7 +1431,7 @@ F 1 "GND" H 3955 5927 50  0000 C CNN
 F 2 "" H 3950 6100 50  0001 C CNN
 F 3 "" H 3950 6100 50  0001 C CNN
 	1    3950 6100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Heatsink HS1
@@ -1446,7 +1446,7 @@ F 5 "https://www.reichelt.de/Stiftkuehlkoerper/V-ICK-PGA36X36/3/index.html?ACTIO
 F 6 "10037097" H 5650 6100 60  0001 C CNN "fischer_elektronik"
 F 7 "http://www.fischerelektronik.de/web_fischer/de_DE/K%C3%BChlk%C3%B6rper/B01/K%C3%BChlk%C3%B6rper%20f%C3%BCr%20PGA/PR/ICKPGA14x14x12_/$productCard/parameters/index.xhtml" H 5650 6100 60  0001 C CNN "fischer_elektronik_url"
 	1    5650 6100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Mounting_Hole_PAD MK2
@@ -1459,7 +1459,7 @@ F 3 "" H 4700 6000 50  0001 C CNN
 F 4 "2588-406" H 4700 6000 60  0001 C CNN "wegertseder"
 F 5 "https://www.wegertseder.com/ArticleDetails.aspx?AKNUM=2588" H 4700 6000 60  0001 C CNN "wegertseder_url"
 	1    4700 6000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR052
@@ -1470,7 +1470,7 @@ F 1 "GND" H 4705 5927 50  0000 C CNN
 F 2 "" H 4700 6100 50  0001 C CNN
 F 3 "" H 4700 6100 50  0001 C CNN
 	1    4700 6100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4250 6700 4250 7150
@@ -1517,7 +1517,7 @@ F 1 "GND" H 2455 7077 50  0000 C CNN
 F 2 "" H 2450 7250 50  0001 C CNN
 F 3 "" H 2450 7250 50  0001 C CNN
 	1    2450 7250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR048
@@ -1528,7 +1528,7 @@ F 1 "GND" H 1505 7077 50  0000 C CNN
 F 2 "" H 1500 7250 50  0001 C CNN
 F 3 "" H 1500 7250 50  0001 C CNN
 	1    1500 7250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 6450 5350 2    60   ~ 0
 data_2-3
