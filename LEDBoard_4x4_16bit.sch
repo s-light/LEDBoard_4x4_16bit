@@ -57,6 +57,8 @@ F 1 "LED_1.1" H 3950 1956 50  0000 C CNN
 F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 3950 1500 50  0001 C CNN
 F 3 "" H 3950 1500 50  0001 C CNN
 F 4 "NSSM124D" H 3950 1550 60  0001 C CNN "Nichia part"
+F 5 "30201" H 3950 1550 60  0001 C CNN "Lumitronix"
+F 6 "http://www.leds.de/Low-Mid-Power-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html" H 3950 1550 60  0001 C CNN "Lumitronix_url"
 	1    3950 1550
 	1    0    0    -1
 $EndComp
@@ -125,6 +127,8 @@ F 1 "LED_1.2" H 3950 2856 50  0000 C CNN
 F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 3950 2400 50  0001 C CNN
 F 3 "" H 3950 2400 50  0001 C CNN
 F 4 "NSSM124D" H 3950 2450 60  0001 C CNN "Nichia part"
+F 5 "30201" H 3950 2450 60  0001 C CNN "Lumitronix"
+F 6 "http://www.leds.de/Low-Mid-Power-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html" H 3950 2450 60  0001 C CNN "Lumitronix_url"
 	1    3950 2450
 	1    0    0    -1
 $EndComp
@@ -137,6 +141,8 @@ F 1 "LED_2.1" H 5150 1956 50  0000 C CNN
 F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 5150 1500 50  0001 C CNN
 F 3 "" H 5150 1500 50  0001 C CNN
 F 4 "NSSM124D" H 5150 1550 60  0001 C CNN "Nichia part"
+F 5 "x" H 5150 1550 60  0001 C CNN "Lumitronix"
+F 6 "xx" H 5150 1550 60  0001 C CNN "Lumitronix_url"
 	1    5150 1550
 	1    0    0    -1
 $EndComp
@@ -149,6 +155,8 @@ F 1 "LED_2.2" H 5150 2856 50  0000 C CNN
 F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 5150 2400 50  0001 C CNN
 F 3 "" H 5150 2400 50  0001 C CNN
 F 4 "NSSM124D" H 5150 2450 60  0001 C CNN "Nichia part"
+F 5 "30201" H 5150 2450 60  0001 C CNN "Lumitronix"
+F 6 "http://www.leds.de/Low-Mid-Power-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html" H 5150 2450 60  0001 C CNN "Lumitronix_url"
 	1    5150 2450
 	1    0    0    -1
 $EndComp
@@ -218,6 +226,8 @@ F 1 "LED_3.1" H 9250 1956 50  0000 C CNN
 F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 9250 1500 50  0001 C CNN
 F 3 "" H 9250 1500 50  0001 C CNN
 F 4 "NSSM124D" H 9250 1550 60  0001 C CNN "Nichia part"
+F 5 "30201" H 9250 1550 60  0001 C CNN "Lumitronix"
+F 6 "http://www.leds.de/Low-Mid-Power-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html" H 9250 1550 60  0001 C CNN "Lumitronix_url"
 	1    9250 1550
 	1    0    0    -1
 $EndComp
@@ -273,6 +283,8 @@ F 1 "LED_3.2" H 9250 2856 50  0000 C CNN
 F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 9250 2400 50  0001 C CNN
 F 3 "" H 9250 2400 50  0001 C CNN
 F 4 "NSSM124D" H 9250 2450 60  0001 C CNN "Nichia part"
+F 5 "30201" H 9250 2450 60  0001 C CNN "Lumitronix"
+F 6 "http://www.leds.de/Low-Mid-Power-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html" H 9250 2450 60  0001 C CNN "Lumitronix_url"
 	1    9250 2450
 	1    0    0    -1
 $EndComp
@@ -285,6 +297,8 @@ F 1 "LED_4.1" H 10450 1956 50  0000 C CNN
 F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 10450 1500 50  0001 C CNN
 F 3 "" H 10450 1500 50  0001 C CNN
 F 4 "NSSM124D" H 10450 1550 60  0001 C CNN "Nichia part"
+F 5 "30201" H 10450 1550 60  0001 C CNN "Lumitronix"
+F 6 "http://www.leds.de/Low-Mid-Power-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html" H 10450 1550 60  0001 C CNN "Lumitronix_url"
 	1    10450 1550
 	1    0    0    -1
 $EndComp
@@ -297,6 +311,8 @@ F 1 "LED_4.2" H 10450 2856 50  0000 C CNN
 F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 10450 2400 50  0001 C CNN
 F 3 "" H 10450 2400 50  0001 C CNN
 F 4 "NSSM124D" H 10450 2450 60  0001 C CNN "Nichia part"
+F 5 "30201" H 10450 2450 60  0001 C CNN "Lumitronix"
+F 6 "http://www.leds.de/Low-Mid-Power-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html" H 10450 2450 60  0001 C CNN "Lumitronix_url"
 	1    10450 2450
 	1    0    0    -1
 $EndComp
@@ -366,6 +382,8 @@ F 1 "LED_1.3" H 3950 4706 50  0000 C CNN
 F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 3950 4250 50  0001 C CNN
 F 3 "" H 3950 4250 50  0001 C CNN
 F 4 "NSSM124D" H 3950 4300 60  0001 C CNN "Nichia part"
+F 5 "30201" H 3950 4300 60  0001 C CNN "Lumitronix"
+F 6 "http://www.leds.de/Low-Mid-Power-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html" H 3950 4300 60  0001 C CNN "Lumitronix_url"
 	1    3950 4300
 	1    0    0    -1
 $EndComp
@@ -434,6 +452,8 @@ F 1 "LED_1.4" H 3950 5606 50  0000 C CNN
 F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 3950 5150 50  0001 C CNN
 F 3 "" H 3950 5150 50  0001 C CNN
 F 4 "NSSM124D" H 3950 5200 60  0001 C CNN "Nichia part"
+F 5 "30201" H 3950 5200 60  0001 C CNN "Lumitronix"
+F 6 "http://www.leds.de/Low-Mid-Power-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html" H 3950 5200 60  0001 C CNN "Lumitronix_url"
 	1    3950 5200
 	1    0    0    -1
 $EndComp
@@ -446,6 +466,8 @@ F 1 "LED_2.3" H 5150 4706 50  0000 C CNN
 F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 5150 4250 50  0001 C CNN
 F 3 "" H 5150 4250 50  0001 C CNN
 F 4 "NSSM124D" H 5150 4300 60  0001 C CNN "Nichia part"
+F 5 "30201" H 5150 4300 60  0001 C CNN "Lumitronix"
+F 6 "http://www.leds.de/Low-Mid-Power-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html" H 5150 4300 60  0001 C CNN "Lumitronix_url"
 	1    5150 4300
 	1    0    0    -1
 $EndComp
@@ -458,6 +480,8 @@ F 1 "LED_2.4" H 5150 5606 50  0000 C CNN
 F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 5150 5150 50  0001 C CNN
 F 3 "" H 5150 5150 50  0001 C CNN
 F 4 "NSSM124D" H 5150 5200 60  0001 C CNN "Nichia part"
+F 5 "30201" H 5150 5200 60  0001 C CNN "Lumitronix"
+F 6 "http://www.leds.de/Low-Mid-Power-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html" H 5150 5200 60  0001 C CNN "Lumitronix_url"
 	1    5150 5200
 	1    0    0    -1
 $EndComp
@@ -527,6 +551,8 @@ F 1 "LED_3.3" H 9250 4706 50  0000 C CNN
 F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 9250 4250 50  0001 C CNN
 F 3 "" H 9250 4250 50  0001 C CNN
 F 4 "NSSM124D" H 9250 4300 60  0001 C CNN "Nichia part"
+F 5 "30201" H 9250 4300 60  0001 C CNN "Lumitronix"
+F 6 "http://www.leds.de/Low-Mid-Power-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html" H 9250 4300 60  0001 C CNN "Lumitronix_url"
 	1    9250 4300
 	1    0    0    -1
 $EndComp
@@ -595,6 +621,8 @@ F 1 "LED_3.4" H 9250 5606 50  0000 C CNN
 F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 9250 5150 50  0001 C CNN
 F 3 "" H 9250 5150 50  0001 C CNN
 F 4 "NSSM124D" H 9250 5200 60  0001 C CNN "Nichia part"
+F 5 "30201" H 9250 5200 60  0001 C CNN "Lumitronix"
+F 6 "http://www.leds.de/Low-Mid-Power-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html" H 9250 5200 60  0001 C CNN "Lumitronix_url"
 	1    9250 5200
 	1    0    0    -1
 $EndComp
@@ -607,6 +635,8 @@ F 1 "LED_4.3" H 10450 4706 50  0000 C CNN
 F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 10450 4250 50  0001 C CNN
 F 3 "" H 10450 4250 50  0001 C CNN
 F 4 "NSSM124D" H 10450 4300 60  0001 C CNN "Nichia part"
+F 5 "30201" H 10450 4300 60  0001 C CNN "Lumitronix"
+F 6 "http://www.leds.de/Low-Mid-Power-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html" H 10450 4300 60  0001 C CNN "Lumitronix_url"
 	1    10450 4300
 	1    0    0    -1
 $EndComp
@@ -619,6 +649,8 @@ F 1 "LED_4.4" H 10450 5606 50  0000 C CNN
 F 2 "nichia:LED_NSSM124_wViaHeatSinkBig" H 10450 5150 50  0001 C CNN
 F 3 "" H 10450 5150 50  0001 C CNN
 F 4 "NSSM124D" H 10450 5200 60  0001 C CNN "Nichia part"
+F 5 "30201" H 10450 5200 60  0001 C CNN "Lumitronix"
+F 6 "http://www.leds.de/Low-Mid-Power-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html" H 10450 5200 60  0001 C CNN "Lumitronix_url"
 	1    10450 5200
 	1    0    0    -1
 $EndComp
