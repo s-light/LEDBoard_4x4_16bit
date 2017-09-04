@@ -6,7 +6,7 @@
 ![LED-Board front](./export/3d/LEDBoard_4x4_16bit_3d_rendering.png)
 
 a LED-Matrix Board that can be combined seamlessly to bigger areas.  
-It uses the [TI TLC5971](http://www.ti.com/product/TLC5971?keyMatch=tlc5971&tisearch=Search-EN-Everything) Constant-Current LED-Driver Chip with 16bit dimming resolution.  
+It uses the [TI TLC5971](http://www.ti.com/product/TLC5971) Constant-Current LED-Driver Chip with 16bit dimming resolution.  
 The [original](https://github.com/s-light/LEDBoard_4x4_16bit/tree/Nichia_NSSM032A) LED-footprint was for [Nichia NSSM032A](http://www.nichia.co.jp/en/product/led_product_data.html?type=%27NSSM032A%27) RGB-LED. They are only available as full reel.
 so there is a [second branch](https://github.com/s-light/LEDBoard_4x4_16bit/tree/Nichia_NSSM124D) with the LED-Type changed to [Nichia NSSM124D](http://www.nichia.co.jp/en/product/led_product_data.html?type=%27NSSM124D%27) - these are [available as cut-tape from an distributor](http://www.leds.de/en/Ordinary-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html).
 latest addition is a [branch with TLC5971*PWP* driver chips](https://github.com/s-light/LEDBoard_4x4_16bit/tree/TLC5971PWP) - this is the same chip but in an HTSSOP-20 housing -
