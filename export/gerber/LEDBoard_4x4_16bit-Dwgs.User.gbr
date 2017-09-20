@@ -2,8 +2,7 @@
 %TF.CreationDate,2017-09-20T19:40:27+02:00*%
 %TF.ProjectId,LEDBoard_4x4_16bit,4C4544426F6172645F3478345F313662,2.0.2*%
 %TF.SameCoordinates,Original*%
-%TF.FileFunction,Paste,Bot*%
-%TF.FilePolarity,Positive*%
+%TF.FileFunction,Drawing*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
 G04 Created by KiCad (PCBNEW no-vcs-found-2c23c4c~60~ubuntu17.04.1) date Wed Sep 20 19:40:27 2017*
@@ -11,5 +10,15 @@ G04 Created by KiCad (PCBNEW no-vcs-found-2c23c4c~60~ubuntu17.04.1) date Wed Sep
 %LPD*%
 G01*
 G04 APERTURE LIST*
+%ADD10C,0.050000*%
 G04 APERTURE END LIST*
+D10*
+X50300000Y-89700000D02*
+X50300000Y-50300000D01*
+X89700000Y-89700000D02*
+X50300000Y-89700000D01*
+X89700000Y-50300000D02*
+X89700000Y-89700000D01*
+X50300000Y-50300000D02*
+X89700000Y-50300000D01*
 M02*

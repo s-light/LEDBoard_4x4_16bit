@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-1f6854f~59~ubuntu17.04.1*%
-%TF.CreationDate,2017-08-04T00:16:45+02:00*%
-%TF.ProjectId,LEDBoard_4x4_16bit,4C4544426F6172645F3478345F313662,2.0.0*%
+%TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-2c23c4c~60~ubuntu17.04.1*%
+%TF.CreationDate,2017-09-20T19:40:27+02:00*%
+%TF.ProjectId,LEDBoard_4x4_16bit,4C4544426F6172645F3478345F313662,2.0.2*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW no-vcs-found-1f6854f~59~ubuntu17.04.1) date Fri Aug  4 00:16:45 2017*
+G04 Created by KiCad (PCBNEW no-vcs-found-2c23c4c~60~ubuntu17.04.1) date Wed Sep 20 19:40:27 2017*
 %MOMM*%
 %LPD*%
 G01*

@@ -1,0 +1,33 @@
+G04 Gerber job file with board parameters*
+%TF.FileFunction,JobInfo*%
+%TF.Part,SinglePCB*%
+G04 Single PCB fabrication instructions*
+%TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-2c23c4c~60~ubuntu17.04.1*%
+%TF.CreationDate,2017-09-20T19:40:27+02:00*%
+%TF.ProjectId,LEDBoard_4x4_16bit,4C4544426F6172645F3478345F313662,2.0.2*%
+%MOMM*%
+G04 Overall board parameters*
+%TJ.B.Size.X,39.650*%
+%TJ.B.Size.Y,39.650*%
+%TJ.B.LayerNum,2*%
+%TJ.B.Overall.Thickness,1.600*%
+%TJ.B.Legend.Present,Both*%
+%TJ.B.SolderMask.Present,Both*%
+G04 board design rules*
+%TJ.D.PadToPad.Outer,0.150*%
+%TJ.D.PadToTrack.Outer,0.150*%
+%TJ.D.TrackToTrack.Outer,0.150*%
+%TJ.D.MinLineWidth.Outer,0.150*%
+%TJ.D.TrackToRegion.Outer,0.150*%
+%TJ.D.RegionToRegion.Outer,0.150*%
+G04 Layer Structure*
+%TJ.L."Copper,L1,Top",Positive,LEDBoard_4x4_16bit-F.Cu.gtl*%
+%TJ.L."Copper,L2,Bot",Positive,LEDBoard_4x4_16bit-B.Cu.gbl*%
+%TJ.L."SolderPaste,Bot",Positive,LEDBoard_4x4_16bit-B.Paste.gbp*%
+%TJ.L."SolderPaste,Top",Positive,LEDBoard_4x4_16bit-F.Paste.gtp*%
+%TJ.L."Legend,Bot",Positive,LEDBoard_4x4_16bit-B.SilkS.gbo*%
+%TJ.L."Legend,Top",Positive,LEDBoard_4x4_16bit-F.SilkS.gto*%
+%TJ.L."SolderMask,Bot",Negative,LEDBoard_4x4_16bit-B.Mask.gbs*%
+%TJ.L."SolderMask,Top",Negative,LEDBoard_4x4_16bit-F.Mask.gts*%
+%TJ.L."Profile",Positive,LEDBoard_4x4_16bit-Edge.Cuts.gm1*%
+M02*

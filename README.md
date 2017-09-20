@@ -1,5 +1,6 @@
 <!--lint disable maximum-line-length-->
 <!--lint disable list-item-spacing-->
+<!--lint disable list-item-indent-->
 
 # LED-Board 4x4 16bit
 ![LED-Board front](./export/3d/LEDBoard_4x4_16bit_3d_rendering.png)
@@ -10,8 +11,8 @@ The default LED-footprint is for [Nichia NSSM032A](http://www.nichia.co.jp/en/pr
 
 ## Project-Status
 - received first Batch
-- one PCB assembled and tested: working :sun_with_face:  
-  hade some problems with the reflow oven - not enough heat from the bottom as the oven only heats from the top.
+- three PCB's assembled and tested: working :sun_with_face:  
+  had some problems with the reflow oven - not enough heat from the bottom as the oven only heats from the top.
 - made some picture from the assembly process: [gallery](./doc/gallery.md)
 
 ### TODO
@@ -21,7 +22,7 @@ The default LED-footprint is for [Nichia NSSM032A](http://www.nichia.co.jp/en/pr
 - add some mounting layouts to [LEDBoard_Layouts](https://github.com/s-light/LEDBoard_Layouts)
 
 ### open ideas
-- add second branch with other nichia led type
+- add second branch with other Nichia led type
 
 ## Technical Information
 there are groups of 4 LEDs that are controlled by one TLC5971.  
@@ -40,14 +41,14 @@ there is the raw exported BOM at [export/BOM/LEDBoard_4x4_16bit_BOM.csv](export/
 ### controlling
 
 #### Micro Controller / Arduino
-there are some Arduino Libraries out there that can generate the correct protocoll.
-My Favorit is [ulrichstern/Tlc59711](https://github.com/ulrichstern/Tlc59711)
+there are some Arduino Libraries out there that can generate the correct protocol.
+My Favorite is [ulrichstern/Tlc59711](https://github.com/ulrichstern/Tlc59711)
 
 i have made a [simple arduino sketch](https://github.com/s-light/LEDBoard_4x4_16bit_HWTest) that uses the mentioned library to test the Boards during production.
 
-#### embedded linux boards
-Additionally you can use a embedded linux board with an SPI output to drive them.
-I have successuflly implemented the protocoll in my fork of OLA.
+#### embedded Linux boards
+Additionally you can use a embedded Linux board with an SPI output to drive them.
+I have successfully implemented the protocol in my fork of OLA.
 (TODO: Link and explain OLA setup)
 
 there are also other python libraries out there.
@@ -63,11 +64,11 @@ for the control-signal there are an input and output 3pin 2,54mm connector:
 1. GND
 
 for the power there are 3x2pin 2,54mm connector positions.
-so you could daisychange power also - but be aware the pcb-traces can handle an absolute maximum of 3,5A. So i would recomend only 1 or maximum 2 daisychangend boards.
+so you could daisy-chain power also - but be aware the PCB-traces can handle an absolute maximum of 3,5A. So i would recommend only 1 or maximum 2 daisy-chained boards.
 
 ## KiCad Version
 ```text
-Application: kicad
+Application: KiCad
 Version: no-vcs-found-e797af3~59~ubuntu17.04.1, release build
 Libraries: wxWidgets 3.0.2
            libcurl/7.52.1 OpenSSL/1.0.2g zlib/1.2.11 libidn2/0.16 libpsl/0.17.0 (+libidn2/0.16) librtmp/2.3
