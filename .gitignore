@@ -1,3 +1,6 @@
+# project specific
+doc/reflow/
+
 # KiCAD ignore list:
 _autosave-*
 *.kicad_pcb-bak
