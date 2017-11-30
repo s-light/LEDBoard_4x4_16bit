@@ -1,4 +1,4 @@
-# KiCAD ignore list:
+# KiCad ignore list:
 _autosave-*
 *.kicad_pcb-bak
 *.bak
@@ -27,10 +27,3 @@ FreeCAD backup files
 /old*
 # for zip backups:
 /backup*
-
-# solidworks binary files:
-SolidWorks/
-*.sldprt
-*.SLDPRT
-*.sldasm
-*.SLDASM
