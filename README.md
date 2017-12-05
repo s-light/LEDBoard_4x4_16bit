@@ -11,25 +11,44 @@ The default LED-footprint is for [Nichia NSSM032A](http://www.nichia.co.jp/en/pr
 
 ## Project-Status
 - received first Batch
-- three PCB's assembled and tested: working :sun_with_face:  
-  had some problems with the reflow oven - not enough heat from the bottom as the oven only heats from the top.
-- made some picture from the assembly process: [gallery](./doc/gallery.md)
+- 9 PCB's assembled  
+  7 working :sun_with_face:  
+  2 have problems:
+  - 1 has a short between VCC and GND
+  - at the other IC4 not working correctly - seems its a ground problem
+- all needed heavy rework: stencil has to big openings - this gives a bunch of bridges at the IC's
+- had some problems with the first reflow oven used - you need enough heat from the bottom to solder correctly.
+- made some picture from first assembly: [gallery](./doc/gallery.md)
 
 ### TODO
+- fix Solder-Stencil design
 - solder some more boards
 - order screws at [Wegertseder](https://www.wegertseder.com/ArticleDetails.aspx?AKNUM=2588)
 - order Heat Sink with machining and Thermal Foil from [Fischer Elektronik](http://www.fischerelektronik.de/web_fischer/de_DE/K%C3%BChlk%C3%B6rper/B01/K%C3%BChlk%C3%B6rper%20f%C3%BCr%20PGA/PR/ICKPGA14x14x12_/$productCard/parameters/index.xhtml)
 - add some mounting layouts to [LEDBoard_Layouts](https://github.com/s-light/LEDBoard_Layouts)
 
-### open ideas
-- add second branch with other Nichia led type
-
 ## Technical Information
 there are groups of 4 LEDs that are controlled by one TLC5971.  
 every controller chip has 12 ConstantCurrent outputs. so every LED is controllable individual.
 
-you need to create a mapping to linearize the order:
-**TODO: FILL IN MAPPING INFORMATION**
+you need to create a mapping to linearize the order:  
+
+| X/Y   | 0        | 1        | 2        | 3        |
+| :---- | :------- | :------- | :------- | :------- |
+| **0** | IC1 LED1 | IC1 LED2 | IC2 LED1 | IC2 LED2 |
+| **1** | IC1 LED3 | IC1 LED4 | IC2 LED3 | IC2 LED4 |
+| **2** | IC3 LED1 | IC3 LED2 | IC4 LED1 | IC4 LED2 |
+| **3** | IC3 LED3 | IC3 LED4 | IC4 LED3 | IC4 LED4 |
+
+example for c++ / arduino
+```c++
+const uint8_t channel_position_map[4][4] = {
+    { 0,  1,  4,  5},
+    { 2,  3,  6,  7},
+    { 8,  9, 12, 13},
+    {10, 11, 14, 15},
+};
+```
 
 ### HW
 - PCB size: 40x40x18mm
@@ -56,7 +75,9 @@ there are also other python libraries out there.
 
 ### power & signal connections
 theoretically calculate with about 1A@5V for every Board.
-Supply Voltage (VCC) should be 3,8V..5,5V - If possible use the lower end. so no extra heat is generated in the driver IC.
+
+Supply Voltage (VCC) should be 3,8V..5,5V -  
+If possible use the lower end. so no extra heat is generated in the driver IC.
 
 for the control-signal there are an input and output 3pin 2,54mm connector:
 1. Data
@@ -64,7 +85,7 @@ for the control-signal there are an input and output 3pin 2,54mm connector:
 1. GND
 
 for the power there are 3x2pin 2,54mm connector positions.
-so you could daisy-chain power also - but be aware the PCB-traces can handle an absolute maximum of 3,5A. So i would recommend only 1 or maximum 2 daisy-chained boards.
+so you could daisy-chain power also - but be aware the PCB-traces can handle an absolute maximum of 3,5A. So i would recommend only 1 or maximum 2 power-daisy-chained boards.
 
 ## KiCad Version
 ```text
@@ -91,7 +112,7 @@ KiCad - Compiler: GCC 6.3.0 with C++ ABI 1010
 ## License
 <!-- License info -->
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-    <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    <img alt="Creative Commons License Attribution" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
 </a><br />
 <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">
     LEDBoard_4x4_16bit
