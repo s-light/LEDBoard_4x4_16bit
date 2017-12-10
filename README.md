@@ -11,12 +11,10 @@ The default LED-footprint is for [Nichia NSSM032A](http://www.nichia.co.jp/en/pr
 
 ## Project-Status
 - received first Batch
-- 9 PCB's assembled  
-  7 working :sun_with_face:  
-  2 have problems:
-  - 1 has a short between VCC and GND
-  - at the other IC4 not working correctly - seems its a ground problem
-- all needed heavy rework: stencil has to big openings - this gives a bunch of bridges at the IC's
+- 11 PCB's assembled  
+  10 working :sun_with_face:  
+  first solder board not working - has a short between VCC and GND (to be checked)
+- all needed heavy rework: stencil has to big openings - this gives a bunch of bridges at QFN 0,5mm Pin-Pitch IC's
 - had some problems with the first reflow oven used - you need enough heat from the bottom to solder correctly.
 - made some picture from first assembly: [gallery](./doc/gallery.md)
 
@@ -25,7 +23,7 @@ The default LED-footprint is for [Nichia NSSM032A](http://www.nichia.co.jp/en/pr
 - solder some more boards
 - order screws at [Wegertseder](https://www.wegertseder.com/ArticleDetails.aspx?AKNUM=2588)
 - order Heat Sink with machining and Thermal Foil from [Fischer Elektronik](http://www.fischerelektronik.de/web_fischer/de_DE/K%C3%BChlk%C3%B6rper/B01/K%C3%BChlk%C3%B6rper%20f%C3%BCr%20PGA/PR/ICKPGA14x14x12_/$productCard/parameters/index.xhtml)
-- add some mounting layouts to [LEDBoard_Layouts](https://github.com/s-light/LEDBoard_Layouts)
+- add some more mounting layouts to [LEDBoard_Layouts](https://github.com/s-light/LEDBoard_Layouts)
 
 ## Technical Information
 there are groups of 4 LEDs that are controlled by one TLC5971.  
