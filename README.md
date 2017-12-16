@@ -14,13 +14,7 @@ that is easier to solder by hand. --> no hot air / reflow oven necessary, but re
 
 ## Project-Status
 - received first Batch ([Release V1.0.0](https://github.com/s-light/LEDBoard_4x4_16bit/releases/tag/v1.0))
-- five PCBs assembled and tested: 2 fully working :sun_with_face:  (1 has a short; 2 working partly)
-  had some problems with the re-flow oven - not enough heat from the bottom as the oven only heats from the top.
-  and a big bunch of solder-bridges on the QFN chips --> lots of rework (eventually this can be fixed with smaller stencil openings-> less solder)
-- made some picture from the assembly process: [gallery](./doc/gallery.md)
-
-## Project-Status
-- received first and second Batch
+- received second Batch ([Release V3.0.1](https://github.com/s-light/LEDBoard_4x4_16bit/tree/v3.0.1))
 - 11 PCB's assembled  
   10 working :sun_with_face:  
   first solder board not working - has a short between VCC and GND (to be checked)
