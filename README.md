@@ -19,18 +19,45 @@ that is easier to solder by hand. --> no hot air / reflow oven necessary, but re
   and a big bunch of solder-bridges on the QFN chips --> lots of rework (eventually this can be fixed with smaller stencil openings-> less solder)
 - made some picture from the assembly process: [gallery](./doc/gallery.md)
 
+## Project-Status
+- received first and second Batch
+- 11 PCB's assembled  
+  10 working :sun_with_face:  
+  first solder board not working - has a short between VCC and GND (to be checked)
+- all needed heavy rework: stencil has to big openings - this gives a bunch of bridges at QFN 0,5mm Pin-Pitch IC's
+- had some problems with the first reflow oven used - you need enough heat from the bottom to solder correctly.
+- made some picture from first assembly: [gallery](./doc/gallery.md)
+
 ### TODO
+- fix pads that are to small for hand-soldering
+- order updated PCB's
 - solder some more boards
 - order screws at [Wegertseder](https://www.wegertseder.com/ArticleDetails.aspx?AKNUM=2588)
 - order Heat Sink with machining and Thermal Foil from [Fischer Elektronik](http://www.fischerelektronik.de/web_fischer/de_DE/K%C3%BChlk%C3%B6rper/B01/K%C3%BChlk%C3%B6rper%20f%C3%BCr%20PGA/PR/ICKPGA14x14x12_/$productCard/parameters/index.xhtml)
-- add some mounting layouts to [LEDBoard_Layouts](https://github.com/s-light/LEDBoard_Layouts)
+- add some more mounting layouts to [LEDBoard_Layouts](https://github.com/s-light/LEDBoard_Layouts)
 
 ## Technical Information
 there are groups of 4 LEDs that are controlled by one TLC5971.  
-every controller chip has 12 Constant-Current outputs. so every LED is controllable individual.
+every controller chip has 12 ConstantCurrent outputs. so every LED is controllable individual.
 
 you need to create a mapping to linearize the order:  
-**TODO: FILL IN MAPPING INFORMATION**
+
+| X/Y   | 0        | 1        | 2        | 3        |
+| :---- | :------- | :------- | :------- | :------- |
+| **0** | IC1 LED1 | IC1 LED2 | IC2 LED1 | IC2 LED2 |
+| **1** | IC1 LED3 | IC1 LED4 | IC2 LED3 | IC2 LED4 |
+| **2** | IC3 LED1 | IC3 LED2 | IC4 LED1 | IC4 LED2 |
+| **3** | IC3 LED3 | IC3 LED4 | IC4 LED3 | IC4 LED4 |
+
+example for c++ / arduino
+```c++
+const uint8_t channel_position_map[4][4] = {
+    { 0,  1,  4,  5},
+    { 2,  3,  6,  7},
+    { 8,  9, 12, 13},
+    {10, 11, 14, 15},
+};
+```
 
 ### HW
 - PCB size: 40x40x18mm
