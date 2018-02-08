@@ -23,8 +23,6 @@ that is easier to solder by hand. --> no hot air / reflow oven necessary, but re
 - made some picture from first assembly: [gallery](./doc/gallery.md)
 
 ### TODO
-- fix pads that are to small for hand-soldering
-- order updated PCB's
 - solder some more boards
 - order screws at [Wegertseder](https://www.wegertseder.com/ArticleDetails.aspx?AKNUM=2588)
 - order Heat Sink with machining and Thermal Foil from [Fischer Elektronik](http://www.fischerelektronik.de/web_fischer/de_DE/K%C3%BChlk%C3%B6rper/B01/K%C3%BChlk%C3%B6rper%20f%C3%BCr%20PGA/PR/ICKPGA14x14x12_/$productCard/parameters/index.xhtml)
