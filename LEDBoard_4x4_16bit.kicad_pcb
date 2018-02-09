@@ -405,7 +405,7 @@
       (net 51 /clock_in))
     (pad 1 smd roundrect (at -1.975 -1.25) (size 0.85 0.28) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.1)
       (net 52 /data_in))
-    (model Housings_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_Pitch0.5mm.wrl
+    (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2386,7 +2386,7 @@
       (net 57 /clock_0-1))
     (pad 1 smd roundrect (at -1.975 -1.25) (size 0.85 0.28) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.1)
       (net 58 /data_0-1))
-    (model Housings_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_Pitch0.5mm.wrl
+    (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2495,7 +2495,7 @@
       (net 60 /clock_1-2))
     (pad 1 smd roundrect (at -1.975 -1.25) (size 0.85 0.28) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.1)
       (net 76 /data_1-2))
-    (model Housings_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_Pitch0.5mm.wrl
+    (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2604,7 +2604,7 @@
       (net 63 /clock_2-3))
     (pad 1 smd roundrect (at -1.975 -1.25) (size 0.85 0.28) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.1)
       (net 75 /data_2-3))
-    (model Housings_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_Pitch0.5mm.wrl
+    (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2662,7 +2662,7 @@
       (net 1 VCC))
     (pad 2 smd roundrect (at 0.75 0) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.1)
       (net 2 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2698,7 +2698,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.75 0) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.1)
       (net 1 VCC))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2734,7 +2734,7 @@
       (net 1 VCC))
     (pad 2 smd roundrect (at 0.75 0) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.1)
       (net 2 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2770,7 +2770,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.75 0) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.1)
       (net 1 VCC))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2806,7 +2806,7 @@
       (net 71 /U1_sense))
     (pad 2 smd roundrect (at 0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.1)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2842,7 +2842,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.1)
       (net 72 /U2_sense))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2878,7 +2878,7 @@
       (net 73 /U3_sense))
     (pad 2 smd roundrect (at 0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.1)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2914,7 +2914,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.1)
       (net 74 /U4_sense))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2950,7 +2950,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.75 0 180) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.1)
       (net 1 VCC))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3015,10 +3015,10 @@
       (net 2 GND))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 VCC))
-    (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_1x06_Pitch2.54mm.wrl
-      (offset (xyz 0 -6.349999904632568 0))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x06_P2.54mm_Vertical.step
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 270))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -3078,10 +3078,10 @@
       (net 51 /clock_in))
     (pad 3 thru_hole oval (at 0 -5.08 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_1x03_Pitch2.54mm.wrl
-      (offset (xyz 0 -2.539999961853027 0))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.step
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 270))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -3119,10 +3119,10 @@
       (net 54 /clock_out))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 53 /data_out))
-    (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_1x03_Pitch2.54mm.wrl
-      (offset (xyz 0 -2.539999961853027 0))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.step
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 270))
+      (rotate (xyz 0 0 0))
     )
   )
 
