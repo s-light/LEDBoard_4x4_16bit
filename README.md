@@ -53,7 +53,11 @@ const uint8_t channel_position_map[4][4] = {
 - pixel-pitch: 10mm
 
 ### BOM
-there is the raw exported BOM at [export/BOM/LEDBoard_4x4_16bit_BOM.csv](export/BOM/LEDBoard_4x4_16bit_BOM.csv) and an modified LibreOffice Calc file with ordering and Price calculations at [doc/LEDBoard_4x4_16bit_PriceCalculation_Ordering](doc/LEDBoard_4x4_16bit_PriceCalculation_Ordering.csv) (link points to exported csv as preview)
+there is the raw exported BOM at
+[export/BOM/LEDBoard_4x4_16bit_BOM.csv](export/BOM/LEDBoard_4x4_16bit_BOM.csv)
+and an modified LibreOffice Calc file with ordering and Price calculations at
+[doc/LEDBoard_4x4_16bit_PriceCalculation_Ordering](doc/LEDBoard_4x4_16bit_PriceCalculation_Ordering.csv)
+(link points to exported csv as preview)
 
 ### controlling
 
@@ -83,28 +87,36 @@ for the control-signal there are an input and output 3pin 2,54mm connector:
 1. GND
 
 for the power there are 3x2pin 2,54mm connector positions.
-so you could daisy-chain power also - but be aware the PCB-traces can handle an absolute maximum of 3,5A. So i would recommend only 1 or maximum 2 power-daisy-chained boards.
+so you could daisy-chain power also - but be aware the PCB-traces can handle an
+absolute maximum of 3,5A.
+And also check your connector specifications...
+So i would recommend only 1 or maximum 2 power-daisy-chained boards.
 
 ## KiCad Version
 ```text
-Application: KiCad
-Version: no-vcs-found-e797af3~59~ubuntu17.04.1, release build
-Libraries: wxWidgets 3.0.2
-           libcurl/7.52.1 OpenSSL/1.0.2g zlib/1.2.11 libidn2/0.16 libpsl/0.17.0 (+libidn2/0.16) librtmp/2.3
-Platform: Linux 4.10.0-26-generic x86_64, 64 bit, Little endian, wxGTK
-- Build Info -
-wxWidgets: 3.0.2 (wchar_t,wx containers,compatible with 2.8)
-Boost: 1.62.0
-Curl: 7.52.1
-KiCad - Compiler: GCC 6.3.0 with C++ ABI 1010
-        Settings: USE_WX_GRAPHICS_CONTEXT=OFF
-                  USE_WX_OVERLAY=OFF
-                  KICAD_SCRIPTING=ON
-                  KICAD_SCRIPTING_MODULES=ON
-                  KICAD_SCRIPTING_WXPYTHON=ON
-                  KICAD_SCRIPTING_ACTION_MENU=ON
-                  BUILD_GITHUB_PLUGIN=ON
-                  KICAD_USE_OCE=ON
+Application: kicad
+Version: no-vcs-found-826efab~61~ubuntu17.10.1, release build
+Libraries:
+    wxWidgets 3.0.3
+    libcurl/7.55.1 OpenSSL/1.0.2g zlib/1.2.11 libidn2/2.0.2 libpsl/0.18.0 (+libidn2/2.0.2) librtmp/2.3
+Platform: Linux 4.13.0-32-generic x86_64, 64 bit, Little endian, wxGTK
+Build Info:
+    wxWidgets: 3.0.3 (wchar_t,wx containers,compatible with 2.8) GTK+ 2.24
+    Boost: 1.62.0
+    Curl: 7.55.1
+    Compiler: GCC 7.2.0 with C++ ABI 1011
+
+Build settings:
+    USE_WX_GRAPHICS_CONTEXT=OFF
+    USE_WX_OVERLAY=OFF
+    KICAD_SCRIPTING=ON
+    KICAD_SCRIPTING_MODULES=ON
+    KICAD_SCRIPTING_WXPYTHON=ON
+    KICAD_SCRIPTING_ACTION_MENU=ON
+    BUILD_GITHUB_PLUGIN=ON
+    KICAD_USE_OCE=ON
+    KICAD_SPICE=ON
+
 ```
 
 ## License
