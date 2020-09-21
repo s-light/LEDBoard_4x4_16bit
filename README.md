@@ -7,10 +7,18 @@
 
 a LED-Matrix Board that can be combined seamlessly to bigger areas.  
 It uses the [TI TLC5971](http://www.ti.com/product/TLC5971) Constant-Current LED-Driver Chip with 16bit dimming resolution.  
-The [original](https://github.com/s-light/LEDBoard_4x4_16bit/tree/Nichia_NSSM032A) LED-footprint was for [Nichia NSSM032A](http://www.nichia.co.jp/en/product/led_product_data.html?type=%27NSSM032A%27) RGB-LED. They are only available as full reel.
-so there is a [second branch](https://github.com/s-light/LEDBoard_4x4_16bit/tree/Nichia_NSSM124D) with the LED-Type changed to [Nichia NSSM124D](http://www.nichia.co.jp/en/product/led_product_data.html?type=%27NSSM124D%27) - these are [available as cut-tape from an distributor](http://www.leds.de/en/Ordinary-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html).
-latest addition is a [branch with TLC5971*PWP* driver chips](https://github.com/s-light/LEDBoard_4x4_16bit/tree/TLC5971PWP) - this is the same chip but in an HTSSOP-20 housing -
-that is easier to solder by hand. --> no hot air / reflow oven necessary, but recommend.
+
+The [original](https://github.com/s-light/LEDBoard_4x4_16bit/tree/Nichia_NSSM032A) LED-footprint was for [Nichia NSSM032A](http://www.nichia.co.jp/en/product/led_product_data.html?type=%27NSSM032A%27) RGB-LED.
+Back in 2017 on of the brightest *low power* SMD LEDs in this size -
+They are only available as full reel directly from Nichia.
+
+so there is a [second branch](https://github.com/s-light/LEDBoard_4x4_16bit/tree/Nichia_NSSM124D) with the LED-Type changed to [Nichia NSSM124D](http://www.nichia.co.jp/en/product/led_product_data.html?type=%27NSSM124D%27) -
+these are [available as cut-tape from an distributor](http://www.leds.de/en/Ordinary-LEDs/SMD-LEDs/Nichia-SMD-LED-RGB-NSSM124DT.html).
+
+latest addition is a [branch with TLC5971*PWP* driver chips](https://github.com/s-light/LEDBoard_4x4_16bit/tree/TLC5971PWP) -
+this is the same chip but in an HTSSOP-20 housing -
+that is easier to solder by hand.
+--> no hot air / reflow oven necessary, but recommend.
 
 ## Project-Status
 - received first Batch ([Release V1.0.0](https://github.com/s-light/LEDBoard_4x4_16bit/releases/tag/v1.0))
@@ -21,14 +29,16 @@ that is easier to solder by hand. --> no hot air / reflow oven necessary, but re
 - all needed heavy rework: stencil has to big openings - this gives a bunch of bridges at QFN 0,5mm Pin-Pitch IC's
 - had some problems with the first reflow oven used - you need enough heat from the bottom to solder correctly.
 - made some picture from first assembly: [gallery](./doc/gallery.md)
+- ~~fix pads that are to small for hand-soldering~~ done
+- ~~order updated PCB's~~ done
+- ~~solder some more boards~~ done (total: ~60)
+- ~~order screws at [Wegertseder](https://www.wegertseder.com/ArticleDetails.aspx?AKNUM=2588)~~ done
+- updated KiCad files to new version.
 
 ### TODO
-- fix pads that are to small for hand-soldering
-- order updated PCB's
-- solder some more boards
-- order screws at [Wegertseder](https://www.wegertseder.com/ArticleDetails.aspx?AKNUM=2588)
 - order Heat Sink with machining and Thermal Foil from [Fischer Elektronik](http://www.fischerelektronik.de/web_fischer/de_DE/K%C3%BChlk%C3%B6rper/B01/K%C3%BChlk%C3%B6rper%20f%C3%BCr%20PGA/PR/ICKPGA14x14x12_/$productCard/parameters/index.xhtml)
 - add some more mounting layouts to [LEDBoard_Layouts](https://github.com/s-light/LEDBoard_Layouts)
+- take some more pictures
 
 ## Technical Information
 there are groups of 4 LEDs that are controlled by one TLC5971.  
@@ -92,24 +102,36 @@ so you could daisy-chain power also - but be aware the pcb-traces can handle an 
 
 ## KiCad Version
 ```text
-Application: kicad
-Version: no-vcs-found-e797af3~59~ubuntu17.04.1, release build
-Libraries: wxWidgets 3.0.2
-           libcurl/7.52.1 OpenSSL/1.0.2g zlib/1.2.11 libidn2/0.16 libpsl/0.17.0 (+libidn2/0.16) librtmp/2.3
-Platform: Linux 4.10.0-26-generic x86_64, 64 bit, Little endian, wxGTK
-- Build Info -
-wxWidgets: 3.0.2 (wchar_t,wx containers,compatible with 2.8)
-Boost: 1.62.0
-Curl: 7.52.1
-KiCad - Compiler: GCC 6.3.0 with C++ ABI 1010
-        Settings: USE_WX_GRAPHICS_CONTEXT=OFF
-                  USE_WX_OVERLAY=OFF
-                  KICAD_SCRIPTING=ON
-                  KICAD_SCRIPTING_MODULES=ON
-                  KICAD_SCRIPTING_WXPYTHON=ON
-                  KICAD_SCRIPTING_ACTION_MENU=ON
-                  BUILD_GITHUB_PLUGIN=ON
-                  KICAD_USE_OCE=ON
+Application: KiCad
+
+Version: 5.99.0-unknown-652a59b78~104~ubuntu20.04.1, release build
+
+Libraries:
+	wxWidgets 3.0.4
+	libcurl/7.68.0 OpenSSL/1.1.1f zlib/1.2.11 brotli/1.0.7 libidn2/2.2.0 libpsl/0.21.0 (+libidn2/2.2.0) libssh/0.9.3/openssl/zlib nghttp2/1.40.0 librtmp/2.3
+
+Platform: Linux 5.4.0-48-generic x86_64, 64 bit, Little endian, wxGTK
+
+Build Info:
+	Date: Sep 16 2020 10:16:55
+	wxWidgets: 3.0.4 (wchar_t,wx containers,compatible with 2.8) GTK+ 3.24
+	Boost: 1.71.0
+	OCE: 6.9.1
+	Curl: 7.68.0
+	ngspice: 31
+	Compiler: GCC 9.3.0 with C++ ABI 1013
+
+Build settings:
+	KICAD_SCRIPTING=ON
+	KICAD_SCRIPTING_MODULES=ON
+	KICAD_SCRIPTING_PYTHON3=ON
+	KICAD_SCRIPTING_WXPYTHON=ON
+	KICAD_SCRIPTING_WXPYTHON_PHOENIX=ON
+	KICAD_SCRIPTING_ACTION_MENU=ON
+	BUILD_GITHUB_PLUGIN=ON
+	KICAD_USE_OCE=ON
+	KICAD_SPICE=ON
+
 ```
 
 ## License
