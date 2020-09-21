@@ -1,4 +1,5 @@
 # KiCad ignore list:
+*-backups
 _autosave-*
 *.kicad_pcb-bak
 *.bak
